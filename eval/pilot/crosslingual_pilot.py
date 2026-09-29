@@ -26,6 +26,7 @@ import pandas as pd
 
 from config import settings
 from mark5.common.logger import get_logger
+from mark5.common.tables import read_table
 from mark5.index.embedder import OllamaEmbedder
 
 from .queries_th_en import QUERY_PAIRS
@@ -61,8 +62,8 @@ def top_k(query_vec: list[float], doc_vecs: list[list[float]], k: int) -> list[t
 
 def run(sample_size: int, k: int) -> dict:
     log.info("อ่านชั้น feature ...")
-    df = pd.read_parquet(settings.FEATURE_FILE,
-                         columns=["parent_asin", "title", "category", "embed_text"])
+    df = read_table(settings.FEATURE_FILE,
+                    columns=["parent_asin", "title", "category", "embed_text"])
     sample = stratified_sample(df, sample_size)
     log.info("ตัวอย่าง %s รายการ จาก %s รายการ ครอบคลุม %d หมวด",
              f"{len(sample):,}", f"{len(df):,}", sample["category"].nunique())

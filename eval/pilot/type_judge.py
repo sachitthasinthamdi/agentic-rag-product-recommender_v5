@@ -21,6 +21,8 @@ from mark5.common.logger import get_logger
 
 log = get_logger(__name__)
 
+# ⚠ นี่คือ prompt "v2" ซึ่งวัดแล้วดีที่สุดใน 4 แบบที่ลอง — อย่าแก้โดยไม่วัดซ้ำ
+#    ประวัติการวัดบนชุด dev อยู่ใน eval/results/type_judge_validation.md
 _SYSTEM = (
     "You evaluate an e-commerce search result. "
     "Compare ONLY the HEAD NOUN — the thing itself that the shopper asked for. "
@@ -33,14 +35,17 @@ _SYSTEM = (
     "Reply with one short reason line, then a final line exactly 'Answer: YES' or 'Answer: NO'."
 )
 
-# few-shot ครอบ 3 ความผิดพลาดที่พบจริง:
-#   1. ของประกอบ/ของที่ใช้คู่กัน แต่คนละชิ้น (แผ่นรองเมาส์ vs เมาส์) -> NO
-#   2. รอบแรก judge ปฏิเสธ "ของที่ตรงเป๊ะ" เพราะมันเป็นอุปกรณ์เสริมอยู่แล้วโดยธรรมชาติ
-#      (ปลอกคอสุนัข) -> ต้องเป็น YES
-#   3. รอบแรก judge ปฏิเสธเพราะขาดคำขยาย (ทรายแมวธรรมดา เมื่อถามทรายแมว "ไร้ฝุ่น") -> ต้องเป็น YES
+# few-shot ครอบความผิดพลาดที่ "วัดได้จริง" จากการ validate กับ ESCI แต่ละรอบ:
+#   v1 ปฏิเสธของที่ตรงเป๊ะเพราะตัวมันเองเป็นอุปกรณ์เสริม (ปลอกคอสุนัข)
+#   v2 ปฏิเสธเพราะสินค้าไม่มีคำขยายครบ (wig/mattress/tree) -> recall เหลือ 36%
+#      คำว่า "head noun" ทำให้โมเดลไปหาข้อบกพร่องแทนที่จะจับคู่ประเภท จึงเลิกใช้คำนี้
+#   ตัวอย่างด้านล่างจึงเน้น "ขาดคำขยายก็ยังใช่" และเพิ่มเคสคำค้นที่เป็นชื่อแบรนด์/คน
+# ⚠ ตัวอย่างทั้งหมดด้านล่าง **แต่งขึ้นเอง** ไม่ได้คัดมาจากชุด gold (ESCI)
+#    ถ้าเอาเคสจากชุดที่ใช้วัดมาใส่ = train on test set ค่า kappa จะสวยแบบหลอก ๆ
+#    แต่ละตัวอย่างสะท้อน "รูปแบบ" ของความผิดพลาดที่วัดได้ ไม่ใช่ตัวเคสเอง
 _FEWSHOT = """Shopper wants: wireless gaming mouse
 Product: Kunsaww Cloud Star Pink Large Game Mouse Pad Non Slip Stitched Edges
-Reason: the head noun is "mouse pad", a surface you put a mouse on, not a mouse.
+Reason: a mouse pad is a surface you rest a mouse on, a different kind of thing.
 Answer: NO
 
 Shopper wants: adjustable dog collar
@@ -104,3 +109,121 @@ class ProductTypeJudge:
         reason = raw.split("Answer:")[0].strip().replace("\n", " ")[:160]
         self._cache[key] = (verdict, reason)
         return verdict, reason
+
+
+# --------------------------------------------------------------------------- แบบสองคำถาม
+
+_ACCESSORY_SYSTEM = (
+    "A shopper searched an online store. You are told what they searched for and one "
+    "product from the results. Answer ONE question: is the product an ACCESSORY rather "
+    "than the item itself?\n"
+    "Accessories include: straps, bands, cases, covers, screen protectors, boxes, bags "
+    "to carry it in, stands, mounts, holders, chargers and cables for it, cleaners, "
+    "sprays, refills, replacement parts, and kits of add-ons.\n"
+    "Matching brand or model name does NOT matter — a strap for a Rolex is still a strap.\n"
+    "Reply with one short reason line, then 'Answer: YES' (it is an accessory) or "
+    "'Answer: NO' (it is the item itself, or something unrelated)."
+)
+
+_ACCESSORY_FEWSHOT = """Shopper searched: rolex submariner mens watch
+Product: Leather Watch Strap 20mm Replacement Band Compatible with Rolex Submariner
+Reason: a strap is worn with a watch.
+Answer: YES
+
+Shopper searched: king size memory foam mattress
+Product: Serta 8 Inch Innerspring Coil Mattress, Twin
+Reason: it is a mattress itself, not something used with one.
+Answer: NO
+
+Shopper searched: wireless gaming mouse
+Product: Kunsaww Large Game Mouse Pad Non Slip Stitched Edges
+Reason: a mouse pad is a surface used with a mouse.
+Answer: YES
+
+Shopper searched: stainless steel water bottle
+Product: Contigo Autoseal Chill Stainless Steel Water Bottle, 24oz
+Reason: it is a water bottle itself.
+Answer: NO
+
+"""
+
+_KIND_SYSTEM = (
+    "A shopper searched an online store. Ignore brand, colour, size, length, count, "
+    "style, material and features entirely — shoppers expect those to vary. "
+    "Answer ONE question: is the product the SAME KIND OF PRODUCT as what was searched "
+    "for?\n"
+    "Reply with one short reason line, then 'Answer: YES' or 'Answer: NO'."
+)
+
+_KIND_FEWSHOT = """Shopper searched: white slim christmas tree with lights
+Product: National Tree Company Pre-Lit Artificial Full Christmas Tree, Green
+Reason: both are christmas trees.
+Answer: YES
+
+Shopper searched: non-slip yoga mat
+Product: CRZ YOGA Mens Comfy Lounge Pants Open Bottom Yoga Pajama Pants
+Reason: trousers are not a mat.
+Answer: NO
+
+Shopper searched: curly brown hair extensions 20 inch
+Product: Straight Synthetic Hair Extension Clip In, Jet Black, 14 Inches
+Reason: both are hair extensions.
+Answer: YES
+
+Shopper searched: office stapler
+Product: MINTLIMIT Womens Long Sleeve Notched Lapel Blazer with Pockets
+Reason: a blazer is clothing, not a stapler.
+Answer: NO
+
+"""
+
+
+class TwoStepProductTypeJudge:
+    """ถามสองคำถามแยกกัน คำถามละงานเดียว แล้วรวมผลด้วยโค้ด
+
+    เหตุผล: prompt เดียวที่ใส่ทั้งเกณฑ์ "อุปกรณ์เสริมไม่นับ" และ "คำขยายไม่สำคัญ"
+    ทำให้โมเดล 8B เอียงไปข้างใดข้างหนึ่งเสมอ — วัดได้จริงจาก 3 รอบ (κ = 0.292 / 0.077 / 0.111)
+    การแยกให้แต่ละคำถามมีเกณฑ์เดียว แล้วให้ **โค้ด** เป็นคนรวม (ไม่ใช่โมเดล)
+    เป็นวิธีเดียวกับที่ mark4 ใช้ตอนทำ Generator แบบ hybrid แล้วได้ผล
+    """
+
+    def __init__(self, chat: OllamaChat | None = None):
+        self._chat = chat or OllamaChat()
+        self._cache: dict[tuple[str, str], tuple[bool | None, str]] = {}
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, *_):
+        self._chat.close()
+
+    def _ask(self, system: str, fewshot: str, wanted: str, title: str) -> tuple[bool | None, str]:
+        raw = self._chat.chat(
+            system=system,
+            user=f"{fewshot}Shopper searched: {wanted}\nProduct: {title}\nReason:",
+            temperature=0.0, num_predict=80,
+        )
+        match = _ANSWER_RE.search(raw)
+        verdict = None if match is None else (match.group(1).lower() == "yes")
+        return verdict, raw.split("Answer:")[0].strip().replace("\n", " ")[:90]
+
+    def judge(self, wanted: str, product_title: str) -> tuple[bool | None, str]:
+        key = (wanted, product_title)
+        if key in self._cache:
+            return self._cache[key]
+
+        is_accessory, why_accessory = self._ask(
+            _ACCESSORY_SYSTEM, _ACCESSORY_FEWSHOT, wanted, product_title)
+        same_kind, why_kind = self._ask(
+            _KIND_SYSTEM, _KIND_FEWSHOT, wanted, product_title)
+
+        if is_accessory is None or same_kind is None:
+            result = (None, f"parse ไม่ได้ | เสริม: {why_accessory} | ชนิด: {why_kind}")
+        else:
+            # โค้ดเป็นคนรวม: ต้อง "ไม่ใช่อุปกรณ์เสริม" และ "ชนิดเดียวกัน" จึงจะผ่าน
+            result = (not is_accessory and same_kind,
+                      f"อุปกรณ์เสริม={is_accessory} ({why_accessory}) | "
+                      f"ชนิดเดียวกัน={same_kind} ({why_kind})")
+
+        self._cache[key] = result
+        return result

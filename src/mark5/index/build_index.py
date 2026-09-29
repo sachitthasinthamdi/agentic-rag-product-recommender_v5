@@ -18,6 +18,7 @@ import pandas as pd
 
 from config import settings
 from mark5.common.logger import get_logger
+from mark5.common.tables import read_table
 from mark5.index.embedder import OllamaEmbedder
 from mark5.index.vector_store import ChromaStore
 
@@ -37,7 +38,7 @@ def build(limit: int | None = None, chunk: int = 512, reset: bool = False,
           batch_size: int = 32) -> None:
     log.info("อ่านชั้น feature ...")
     columns = ["parent_asin", "embed_text", *METADATA_COLUMNS]
-    df = pd.read_parquet(settings.FEATURE_FILE, columns=columns)
+    df = read_table(settings.FEATURE_FILE, columns=columns)
     if limit:
         df = df.head(limit)
         log.info("โหมดทดสอบ: ใช้แค่ %s แถวแรก", f"{limit:,}")

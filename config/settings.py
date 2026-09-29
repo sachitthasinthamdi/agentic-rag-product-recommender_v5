@@ -19,9 +19,11 @@ CLEAN_DIR = DATA_DIR / "clean"
 FEATURE_DIR = DATA_DIR / "feature"
 EMBED_DIR = DATA_DIR / "embed"
 
-RAW_FILE = RAW_DIR / "products_raw.parquet"
-CLEAN_FILE = CLEAN_DIR / "products_clean.parquet"
-FEATURE_FILE = FEATURE_DIR / "products_feature.parquet"
+# ใช้ Feather (= Arrow IPC file) ไม่ใช่ Parquet — Application Control บล็อก DLL `pyarrow._fs`
+# ที่ `pyarrow.parquet` ต้องใช้ ดูเหตุผลเต็มใน src/mark5/common/tables.py (ADR ในหัวไฟล์)
+RAW_FILE = RAW_DIR / "products_raw.feather"
+CLEAN_FILE = CLEAN_DIR / "products_clean.feather"
+FEATURE_FILE = FEATURE_DIR / "products_feature.feather"
 
 SOURCE_DATASET = "milistu/AMAZON-Products-2023"
 

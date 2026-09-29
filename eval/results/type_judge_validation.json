@@ -1,0 +1,937 @@
+{
+  "stats": {
+    "n": 73,
+    "kappa": 0.2460709474629545,
+    "kappa_label": "fair (พอใช้)",
+    "accuracy": 0.684931506849315,
+    "precision": 0.5263157894736842,
+    "recall": 0.4166666666666667,
+    "true_positive": 10,
+    "true_negative": 40,
+    "false_positive": 9,
+    "false_negative": 14,
+    "gold_yes_rate": 0.3287671232876712,
+    "pred_yes_rate": 0.2602739726027397,
+    "n_unparsed": 0,
+    "n_ambiguous_excluded": 27,
+    "substitute_yes_rate": 0.37037037037037035,
+    "per_label": {
+      "Exact": {
+        "n": 24,
+        "accuracy": 0.4166666666666667
+      },
+      "Complement": {
+        "n": 22,
+        "accuracy": 0.8181818181818182
+      },
+      "Irrelevant": {
+        "n": 27,
+        "accuracy": 0.8148148148148148
+      }
+    },
+    "split": "test",
+    "judge": "single"
+  },
+  "judged": [
+    {
+      "query": "ashley longshore",
+      "product_title": "Ashley Longshore: I Do Not Cook, I Do Not Clean, I Do Not Fly Commercial",
+      "esci_label": "Exact",
+      "gold_same_type": true,
+      "product_id": "0847866467",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"book\", not a person or product."
+    },
+    {
+      "query": "home made dust collector",
+      "product_title": "4 Inch x 10 Feet Dust Collection Hose - Flexible Clear PVC Heavy Duty Puncture Resistant Dust Debris Fume Hoses - Reinforced With Coated Wire Helix",
+      "esci_label": "Complement",
+      "gold_same_type": false,
+      "product_id": "B087ZMXR3L",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"dust collection hose\", not a dust collector."
+    },
+    {
+      "query": "grey shaggy rug for bedroom",
+      "product_title": "Daopwlkom Ultra Soft Fluffy Area Rugs Carpets for Nursery Living Rooms Floor Decor Non-Slip Plush Rugs, 16x24 inches",
+      "esci_label": "Substitute",
+      "gold_same_type": null,
+      "product_id": "B0822LS6YR",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"rug\", not a specific color or room."
+    },
+    {
+      "query": "cushion chairs for dining table",
+      "product_title": "Ashley Furniture Signature Design - Leahlyn Dining Upholstered Side Chair - Pierced Splat Back - Set of 2 - Medium Brown",
+      "esci_label": "Substitute",
+      "gold_same_type": null,
+      "product_id": "B00EUL2B16",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"chair\", not a specific type like \"cushion\" or \"dining\"."
+    },
+    {
+      "query": "ashley queen firm mattress",
+      "product_title": "Best Choice Products 12in Queen Size 2-Layer Medium-Firm Mattress w/Moisture Wicking, Odor Reducing Bamboo Charcoal Gel & Green Tea Infused Memory Foam - CertiPUR-US Certified",
+      "esci_label": "Substitute",
+      "gold_same_type": null,
+      "product_id": "B084HBSYHR",
+      "judge_same_type": true,
+      "judge_reason": "the head noun is \"mattress\", not a specific brand or size."
+    },
+    {
+      "query": "ashley longshore",
+      "product_title": "Signature Design by Ashley Trinell Rustic 2 Drawer Nightstand with USB Charging Stations, Warm Brown",
+      "esci_label": "Irrelevant",
+      "gold_same_type": false,
+      "product_id": "B06XG5WP7Y",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"nightstand\", a different kind of thing."
+    },
+    {
+      "query": "gucci cologne for men gift set",
+      "product_title": "Gucci(グッチ) グッチ ギルティ プールオム EDT SP 90ml [並行輸入品] アロマティック フゼア 90ミリリットル (x 1)",
+      "esci_label": "Exact",
+      "gold_same_type": true,
+      "product_id": "B004O24Q8W",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"cologne\", not a gift set."
+    },
+    {
+      "query": "ashley straw",
+      "product_title": "Gogooda 7Pcs Mesh Laundry Bags for Delicates with Premium Zipper, Travel Storage Organize Bag, Clothing Washing Bags for Laundry, Blouse, Bra, Hosiery, Stocking, Underwear, Lingerie",
+      "esci_label": "Irrelevant",
+      "gold_same_type": false,
+      "product_id": "B075YV41GQ",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"laundry bags\", not a specific type of straw."
+    },
+    {
+      "query": "ashley straw",
+      "product_title": "Windmill Of The Gods",
+      "esci_label": "Irrelevant",
+      "gold_same_type": false,
+      "product_id": "B07M9ZLZVV",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"Windmill Of The Gods\", not a type of straw."
+    },
+    {
+      "query": "archery target",
+      "product_title": "MILAEM Archery Target Pins Plastic Archery Paper Target Face Pins Target Accessories Archery 24 Pcs (White)",
+      "esci_label": "Complement",
+      "gold_same_type": false,
+      "product_id": "B07BTSS384",
+      "judge_same_type": true,
+      "judge_reason": "the head noun is \"archery target\", exactly what was asked; \"plastic\" and \"paper\" are just materials."
+    },
+    {
+      "query": "cintos gucci originales para mujer",
+      "product_title": "Gucci Women's Aviator 57Mm Sunglasses",
+      "esci_label": "Irrelevant",
+      "gold_same_type": false,
+      "product_id": "B06XCP3TP6",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"sunglasses\", not a type of belt."
+    },
+    {
+      "query": "futuro back support for men",
+      "product_title": "VOKKA Corrector de Postura, Corrector y Soporte para Columna Vertebral, Alivia Dolor en Cuello, Espalda y Hombros, Ajustable y Transpirable, Mejora la Postura y Proporciona Soporte para la Espalda, L",
+      "esci_label": "Substitute",
+      "gold_same_type": null,
+      "product_id": "B07M6P845R",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"back support\", not a specific type for men."
+    },
+    {
+      "query": "women vest open plaid",
+      "product_title": "YACUN Women Buffalo Plaid Vest Lapel Open Front Sleeveless Cardigan Jacket Coat Outerwear with Pockets Red S",
+      "esci_label": "Exact",
+      "gold_same_type": true,
+      "product_id": "B076HS3GNB",
+      "judge_same_type": true,
+      "judge_reason": "the head noun is \"vest\", exactly what was asked; \"open plaid\" are features."
+    },
+    {
+      "query": "gucci cologne for men gift set",
+      "product_title": "Gucci Pour Homme 3.0 oz Eau de Toilette Spray",
+      "esci_label": "Substitute",
+      "gold_same_type": null,
+      "product_id": "B00417SVOK",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"cologne\", not a gift set or specific brand."
+    },
+    {
+      "query": "ashley queen firm mattress",
+      "product_title": "Signature DESIGN BY ASHLEY Limited Edition 11 Inch Firm Hybrid Mattress - CertiPUR-US Certified Gel Foam, Queen",
+      "esci_label": "Exact",
+      "gold_same_type": true,
+      "product_id": "B07KGNXGFF",
+      "judge_same_type": true,
+      "judge_reason": "the head noun is \"mattress\", not a specific brand or size."
+    },
+    {
+      "query": "cintos gucci originales para mujer",
+      "product_title": "Gucci GG0225S Gold One Size",
+      "esci_label": "Irrelevant",
+      "gold_same_type": false,
+      "product_id": "B076SSXNXC",
+      "judge_same_type": true,
+      "judge_reason": "the head noun is \"cintos gucci originales para mujer\", exactly what was asked."
+    },
+    {
+      "query": "archery target",
+      "product_title": "Perfect Strike Archery SCOREBOOK with Rules and Scoring Instructions : Heavy Duty. Great for Practice and Competition. 12 Round-5 Arrow Scoresheets. (1 Book) (1)",
+      "esci_label": "Complement",
+      "gold_same_type": false,
+      "product_id": "B07SC3Q4F7",
+      "judge_same_type": true,
+      "judge_reason": "the head noun is \"archery target\", exactly what was asked."
+    },
+    {
+      "query": "plaid open cardigan flannel",
+      "product_title": "Long Buffalo Plaid Cardigan for Women Plus Size Sweater Open Front Elbow Patch (X-Large, Red Black Buffalo Plaid)",
+      "esci_label": "Substitute",
+      "gold_same_type": null,
+      "product_id": "B07HHFG1RY",
+      "judge_same_type": true,
+      "judge_reason": "the head noun is \"cardigan\", exactly what was asked; \"plaid\" and \"open front\" are features."
+    },
+    {
+      "query": "plaid paint by numbers for adults",
+      "product_title": "DIMENSIONS PBN 20x14 Echo Bay, None",
+      "esci_label": "Substitute",
+      "gold_same_type": null,
+      "product_id": "B00V9G0KSQ",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"paint by numbers\", a different kind of thing from what was asked."
+    },
+    {
+      "query": "gucci disco",
+      "product_title": "Gucci GG0053S Black One Size",
+      "esci_label": "Irrelevant",
+      "gold_same_type": false,
+      "product_id": "B06XCKQ7D2",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"disco\", a brand, not the item itself."
+    },
+    {
+      "query": "ashley queen firm mattress",
+      "product_title": "ZINUS 12 Inch Support Plus Pocket Spring Hybrid Mattress / Extra Firm Feel / Heavier Coils for Durable Support / Pocket Innersprings for Motion Isolation / Mattress-in-a-Box, Queen",
+      "esci_label": "Substitute",
+      "gold_same_type": null,
+      "product_id": "B0134FXZ40",
+      "judge_same_type": true,
+      "judge_reason": "the head noun is \"mattress\", exactly what was asked."
+    },
+    {
+      "query": "cintos gucci originales para mujer",
+      "product_title": "Gucci Guilty Eau de Toilette Spray for Women, 2.5 Ounce",
+      "esci_label": "Irrelevant",
+      "gold_same_type": false,
+      "product_id": "B0749JYJW5",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"Gucci Guilty Eau de Toilette Spray\", not a type of belt."
+    },
+    {
+      "query": "think big and kick ass",
+      "product_title": "Bad Girls Throughout History: 100 Remarkable Women Who Changed The World (Ann Shen Legendary Ladies Collection)",
+      "esci_label": "Substitute",
+      "gold_same_type": null,
+      "product_id": "1452153930",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"book\", not a person or an action."
+    },
+    {
+      "query": "apple watch series 5",
+      "product_title": "LK 6 Pack Screen Protector Compatible with Apple Watch Series 7 45MM Series 6 Series 5 Series 4 44mm, Max Coverage, Compatible with iWatch 44mm, Ultra-Thin TPU Film, Case Friendly，apj02",
+      "esci_label": "Complement",
+      "gold_same_type": false,
+      "product_id": "B07WGG6BZW",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"screen protector\", not an apple watch."
+    },
+    {
+      "query": "gucci disco",
+      "product_title": "Gucci GG0418S Black/Crystal/Grey Gradient One Size",
+      "esci_label": "Irrelevant",
+      "gold_same_type": false,
+      "product_id": "B07GXRM95R",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"disco\", a brand, not the product itself."
+    },
+    {
+      "query": "gucci belts",
+      "product_title": "Gucci Women's Pilot Urban Web Block Aviator Sunglasses, Gold/Green, One Size",
+      "esci_label": "Irrelevant",
+      "gold_same_type": false,
+      "product_id": "B01KGR44K8",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"sunglasses\", not a belt."
+    },
+    {
+      "query": "home made dust collector",
+      "product_title": "Clear Plastic Dust Collector Replacement Bag 5 Pack 20\" Diameter by 43\" Long For Machines with 20\" Filter Drums 5 mil Thick",
+      "esci_label": "Complement",
+      "gold_same_type": false,
+      "product_id": "B07DX8678P",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"dust collector\", a different kind of thing."
+    },
+    {
+      "query": "nightstand",
+      "product_title": "Signature Design by Ashley Alisdair Traditional 2 Drawer Nightstand, Dark Brown",
+      "esci_label": "Exact",
+      "gold_same_type": true,
+      "product_id": "B01EYJY1KW",
+      "judge_same_type": true,
+      "judge_reason": "the head noun is \"nightstand\", exactly what was asked."
+    },
+    {
+      "query": "emergency oil cans 5 gallon",
+      "product_title": "Sure Can Sur50g1 5 Gallon Gasoline Can",
+      "esci_label": "Complement",
+      "gold_same_type": false,
+      "product_id": "B0761WHH8L",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"gasoline can\", not an emergency item."
+    },
+    {
+      "query": "gucci disco",
+      "product_title": "Gucci 0036S 002 Black 0036S Square Sunglasses Lens Category 3 Size 54mm",
+      "esci_label": "Irrelevant",
+      "gold_same_type": false,
+      "product_id": "B06XCGNNL2",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"sunglasses\", not a specific brand or style."
+    },
+    {
+      "query": "apple watch band with case",
+      "product_title": "WFEAGL Compatible iWatch Band 41mm 40mm 38mm, Top Grain Leather Band with Gold Adapter(Same as Series 6/5/4/3 with Gold Aluminum Case in Color) for iWatch SE & Series 7/6/5/4/3/2/1(Pink Sand+Rosegold)",
+      "esci_label": "Complement",
+      "gold_same_type": false,
+      "product_id": "B07GB5Z7JN",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"watch band\", not a case."
+    },
+    {
+      "query": "ashley longshore",
+      "product_title": "Signature Design by Ashley Culverbach Modern 2 Drawer Nightstand with 2 USB Charging Stations, Weathered Gray",
+      "esci_label": "Irrelevant",
+      "gold_same_type": false,
+      "product_id": "B01N65F5QZ",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"nightstand\", a different kind of thing."
+    },
+    {
+      "query": "cintos gucci originales para mujer",
+      "product_title": "Gucci Guilty by Gucci for Men Eau de Toilette Spray, 3 Fl Oz (Pack of 1)",
+      "esci_label": "Irrelevant",
+      "gold_same_type": false,
+      "product_id": "B004O24Q8W",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"Gucci Guilty\", a different product."
+    },
+    {
+      "query": "medium size modern end table lamps for the living room",
+      "product_title": "Signature Design by Ashley - Laurentia Glass Table Lamp with Drum Shade - Champagne Toned",
+      "esci_label": "Exact",
+      "gold_same_type": true,
+      "product_id": "B07583Y1RP",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"table lamp\", not an end table or a specific size, style, or location."
+    },
+    {
+      "query": "hawaii decor for bedroom",
+      "product_title": "Arjun Teal Canvas Wall Art Ocean Lighthouse Painting Palm Tree Surfboard Picture Prints 3 Panels Coastal Beach Trestle Modern Seascape Blue Artwork for Bedroom Kitchen Dinning Room Bathroom Home Décor",
+      "esci_label": "Substitute",
+      "gold_same_type": null,
+      "product_id": "B07Q6LD5VH",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"wall art\", not a decor item."
+    },
+    {
+      "query": "plaid paint by numbers for adults",
+      "product_title": "MiDenso Paint by Numbers DIY Easy Funny Painting Kit for Kids Adults Beginner 16\" by 20\" Colorful Pattern with Gift Wrap Stocking Stuffer Christmas Birthday Gifts for Him Girls,Snow House",
+      "esci_label": "Substitute",
+      "gold_same_type": null,
+      "product_id": "B07MB9T798",
+      "judge_same_type": true,
+      "judge_reason": "the head noun is \"paint by numbers\", exactly what was asked; \"plaid\" is a pattern, not a different product."
+    },
+    {
+      "query": "apple watch band with case",
+      "product_title": "Huishang Compatible for Apple Watch Bands 38mm 40mm 42mm 44mm Women Men with Screen Protector Case,Soft Silicone Sport Replacement Wristband for iWatch Series SE 6 5 4 3 2 1",
+      "esci_label": "Complement",
+      "gold_same_type": false,
+      "product_id": "B07WXRZQXS",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"watch band\", not a case."
+    },
+    {
+      "query": "gucci belts for women",
+      "product_title": "Gucci GG0225S Gold One Size",
+      "esci_label": "Irrelevant",
+      "gold_same_type": false,
+      "product_id": "B076SSXNXC",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"belt\", not a specific brand or size."
+    },
+    {
+      "query": "cintos gucci originales para mujer",
+      "product_title": "Gucci GG0102S 001 Black/Grey GG0102S Square Sunglasses Lens Category 3 Size 5",
+      "esci_label": "Exact",
+      "gold_same_type": true,
+      "product_id": "B06ZZGML1D",
+      "judge_same_type": true,
+      "judge_reason": "the head noun is \"sunglasses\", not a different product."
+    },
+    {
+      "query": "posture corrector for neck support adjustable for women",
+      "product_title": "VOKKA Corrector de Postura, Corrector y Soporte para Columna Vertebral, Alivia Dolor en Cuello, Espalda y Hombros, Ajustable y Transpirable, Mejora la Postura y Proporciona Soporte para la Espalda, L",
+      "esci_label": "Exact",
+      "gold_same_type": true,
+      "product_id": "B07M6P845R",
+      "judge_same_type": true,
+      "judge_reason": "the head noun is \"posture corrector\", exactly what was asked; \"adjustable\" is just a feature."
+    },
+    {
+      "query": "plaid paint by numbers for adults",
+      "product_title": "RENWUANG Colour DIY Oil Painting, Paint by Number Kits for Adults - Nude Angel Pattern ,Home Decor Wall Art- 16x20 in",
+      "esci_label": "Substitute",
+      "gold_same_type": null,
+      "product_id": "B07WSH9FQH",
+      "judge_same_type": true,
+      "judge_reason": "the head noun is \"paint by numbers\", exactly what was asked."
+    },
+    {
+      "query": "yankees license plate frame",
+      "product_title": "Rico Industries - New York Yankees Laser Cut Blue License Plate",
+      "esci_label": "Complement",
+      "gold_same_type": false,
+      "product_id": "B0011BOJF4",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"license plate frame\", not a Yankees item."
+    },
+    {
+      "query": "plaid open cardigan flannel",
+      "product_title": "Unidear Womens Casual Turn Down Collar Autumn Buffalo Plaid Open Front Cardigan Shawl Vest Coat Light Red XL",
+      "esci_label": "Substitute",
+      "gold_same_type": null,
+      "product_id": "B07HHXXZFZ",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"cardigan\", a different kind of thing from what was asked."
+    },
+    {
+      "query": "20v max black and decker",
+      "product_title": "LBXR20 Replacement for Black and Decker 20V Lithium Battery Max LB20 LBX20 LBXR20-OPE LBXR2020-OPE LB2X4020-OPE LBXR20B-2 LST220 Cordless Power Tool 1 Pack",
+      "esci_label": "Complement",
+      "gold_same_type": false,
+      "product_id": "B086WDC8K2",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"battery\", not a power tool."
+    },
+    {
+      "query": "cintos gucci originales para mujer",
+      "product_title": "Gucci Pour Homme 3.0 oz Eau de Toilette Spray",
+      "esci_label": "Irrelevant",
+      "gold_same_type": false,
+      "product_id": "B00417SVOK",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"Gucci Pour Homme\", a different product from the shopper's request."
+    },
+    {
+      "query": "ashley longshore",
+      "product_title": "Signature Design by Ashley Willowton Farmhouse 2 Drawer Nightstand with USB Charging Ports, Whitewash",
+      "esci_label": "Irrelevant",
+      "gold_same_type": false,
+      "product_id": "B01G7T55PC",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"nightstand\", a different kind of thing."
+    },
+    {
+      "query": "stylus pen for samsung note 9 with bluetooth",
+      "product_title": "for Samsung Galaxy Note 9 Stylus Pen Touch Screen - Touch Screen Stylus S Pen Replacement Part for for Samsung Galaxy Note 9 SM-N960 Without Bluetooth Control（Yellow）",
+      "esci_label": "Complement",
+      "gold_same_type": false,
+      "product_id": "B07K1BVHSG",
+      "judge_same_type": true,
+      "judge_reason": "the head noun is \"stylus pen\", exactly what was asked; \"for Samsung Galaxy Note 9\" is just a feature."
+    },
+    {
+      "query": "plaid button down dress",
+      "product_title": "Amazon Brand - Goodthreads Men's Slim-Fit Long-Sleeve Gingham Plaid Poplin Shirt, Blue/Grey, Large",
+      "esci_label": "Irrelevant",
+      "gold_same_type": false,
+      "product_id": "B01KGE61K2",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"shirt\", not a dress."
+    },
+    {
+      "query": "grey punisher decal",
+      "product_title": "Punisher Skull Sticker Pack Decal Set White Reflective 2 Large Skulls 2 Medium 3 Small Skull Sticker for car Decals Like Chris Kyle American Sniper Motorcycle Helmet Jeep Window Trucks Bicycle Safety",
+      "esci_label": "Substitute",
+      "gold_same_type": null,
+      "product_id": "B07B896XFW",
+      "judge_same_type": true,
+      "judge_reason": "the head noun is \"Punisher decal\", exactly what was asked."
+    },
+    {
+      "query": "plaid open cardigan flannel",
+      "product_title": "ECOWISH Womens Color Block Striped Draped Kimono Cardigan with Pockets Long Sleeve Open Front Casual Knit Sweaters Coat Pink/Peach and White S",
+      "esci_label": "Substitute",
+      "gold_same_type": null,
+      "product_id": "B07J6NQCTB",
+      "judge_same_type": true,
+      "judge_reason": "the head noun is \"cardigan\", exactly what was asked; \"plaid open\" are features."
+    },
+    {
+      "query": "plaid open cardigan flannel",
+      "product_title": "Sidefeel Women Open Front Cardigan Sweater Button Down Knit Sweater Coat Medium Burgundy",
+      "esci_label": "Substitute",
+      "gold_same_type": null,
+      "product_id": "B07KLVYT9S",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"cardigan\", a different kind of thing from the shopper's request."
+    },
+    {
+      "query": "cintos gucci originales para mujer",
+      "product_title": "Gucci Women's Sensual Romanticism Rectangle Sunglasses, Black/Grey, One Size",
+      "esci_label": "Exact",
+      "gold_same_type": true,
+      "product_id": "B06XK67V3S",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"sunglasses\", not a different product."
+    },
+    {
+      "query": "youth archery target",
+      "product_title": "Highwild Archery Target Stand for Bag Targets Block Cube Foam - Larger Range - Multi-Function - Flexible - Durable",
+      "esci_label": "Complement",
+      "gold_same_type": false,
+      "product_id": "B07F12C91W",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"archery target\", a different kind of thing from what was asked."
+    },
+    {
+      "query": "cintos gucci originales para mujer",
+      "product_title": "Gucci GG0418S Black/Crystal/Grey Gradient One Size",
+      "esci_label": "Irrelevant",
+      "gold_same_type": false,
+      "product_id": "B07GXRM95R",
+      "judge_same_type": true,
+      "judge_reason": "the head noun is \"cintos gucci originales para mujer\", exactly what was asked."
+    },
+    {
+      "query": "plaid paint by numbers for adults",
+      "product_title": "ABEUTY DIY Paint by Numbers for Adults Beginner (Flowers 1, Wooden Framed)",
+      "esci_label": "Substitute",
+      "gold_same_type": null,
+      "product_id": "B07HCC2KP4",
+      "judge_same_type": true,
+      "judge_reason": "the head noun is \"paint by numbers\", exactly what was asked; \"plaid\" is a pattern."
+    },
+    {
+      "query": "ashley longshore",
+      "product_title": "Bad Girls Throughout History: 100 Remarkable Women Who Changed The World (Ann Shen Legendary Ladies Collection)",
+      "esci_label": "Irrelevant",
+      "gold_same_type": false,
+      "product_id": "1452153930",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"book\", not a person or artwork."
+    },
+    {
+      "query": "plaid queen comforter",
+      "product_title": "Wellboo White Plaid Comforter Sets Queen Grid Checkered Bedding Cotton Women Men White and Black Buffalo Check Grid Comforters Boys Girls Teen Modern Gingham Quilts Geometric Large Plaid Bed 3 PCS",
+      "esci_label": "Exact",
+      "gold_same_type": true,
+      "product_id": "B07YCBCPFF",
+      "judge_same_type": true,
+      "judge_reason": "the head noun is \"comforter\", exactly what was asked; \"plaid\" is a pattern, not a different product."
+    },
+    {
+      "query": "plaid queen comforter",
+      "product_title": "Jumeey Navy Plaid Comforter Set Queen Teen Boys Blue Bedding Sets Queen with Comforter Dark Blue Grid Comforter Full Buffalo Checkered Gingham Bedding Duvet Insert Tartan Bedding Comforters Sets Full",
+      "esci_label": "Exact",
+      "gold_same_type": true,
+      "product_id": "B082PZ5L2P",
+      "judge_same_type": true,
+      "judge_reason": "the head noun is \"comforter\", exactly what was asked; \"plaid queen\" is a description."
+    },
+    {
+      "query": "manfrotto 190go carbon",
+      "product_title": "Manfrotto MB MBAG75PN Tripod Bag Padded 75cm (Black)",
+      "esci_label": "Complement",
+      "gold_same_type": false,
+      "product_id": "B01CTUJ5RM",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"tripod bag\", not a tripod itself."
+    },
+    {
+      "query": "posture corrector for men",
+      "product_title": "VOKKA Posture Corrector for Men and Women, Back Brace, Provides Pain Relief for Neck, Back, and Shoulders, Adjustable and Breathable, Posture Support, Improves Posture and Provides Back Support, l",
+      "esci_label": "Exact",
+      "gold_same_type": true,
+      "product_id": "B07M6P845R",
+      "judge_same_type": true,
+      "judge_reason": "the head noun is \"posture corrector\", exactly what was asked."
+    },
+    {
+      "query": "ashley straw",
+      "product_title": "Wendigo",
+      "esci_label": "Irrelevant",
+      "gold_same_type": false,
+      "product_id": "B0763TVR31",
+      "judge_same_type": true,
+      "judge_reason": "the head noun is \"straw\", exactly what was asked; \"ashley\" is a brand, not a different product."
+    },
+    {
+      "query": "ashley queen firm mattress",
+      "product_title": "LUCID 10 Inch Memory Foam Firm Feel – Gel Infusion – Hypoallergenic Bamboo Charcoal – Breathable Cover Bed Mattress Conventional, Queen",
+      "esci_label": "Substitute",
+      "gold_same_type": null,
+      "product_id": "B0861WT4N8",
+      "judge_same_type": true,
+      "judge_reason": "the head noun is \"mattress\", exactly what was asked."
+    },
+    {
+      "query": "womens comfort office shoes 1.5 inch heel",
+      "product_title": "Carlos by Carlos Santana Women's Brie Ankle Bootie, Doe, 8.5 M US",
+      "esci_label": "Substitute",
+      "gold_same_type": null,
+      "product_id": "B017JPLTSK",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"shoes\", not a specific type of shoe."
+    },
+    {
+      "query": "gucci perfume for men",
+      "product_title": "Gucci Pour Homme 3.0 oz Eau de Toilette Spray",
+      "esci_label": "Exact",
+      "gold_same_type": true,
+      "product_id": "B00417SVOK",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"perfume\", not a specific brand or size."
+    },
+    {
+      "query": "shoot rubber bullets",
+      "product_title": "Dan Wesson ASG 2.5\" CO2 Powered Air Revolver, Silver",
+      "esci_label": "Exact",
+      "gold_same_type": true,
+      "product_id": "B006FHMD02",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"revolver\", not a bullet."
+    },
+    {
+      "query": "plaid open cardigan flannel",
+      "product_title": "Legendary Whitetails Women's Standard Cottage Escape Flannel Shirt, Sangria Plaid, Medium",
+      "esci_label": "Substitute",
+      "gold_same_type": null,
+      "product_id": "B01JJQ67R0",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"shirt\", not a cardigan or flannel."
+    },
+    {
+      "query": "light up christmas decorations",
+      "product_title": "Hairui Lighted Brown Twig Branches Plug in with Dimmer and Timer 32IN 150 LED Fairy Lights, Lighted Willow Branch for Indoor Outdoor Home Christmas Wedding Decoration (Vase Excluded)",
+      "esci_label": "Exact",
+      "gold_same_type": true,
+      "product_id": "B07FY5SVDX",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"twig branches\", not a decoration."
+    },
+    {
+      "query": "plaid paint by numbers for adults",
+      "product_title": "DACO Miniature Paint Brushes, 8 Mini Paint Brushes & Paintbrush Holder, Fine Detail Paint Brush Set for Acrylic Painting & Oil Painting, Miniature Painting Brushes for Paint by Numbers for Adults",
+      "esci_label": "Complement",
+      "gold_same_type": false,
+      "product_id": "B07Q754FK6",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"paint brushes\", not a paint by numbers kit."
+    },
+    {
+      "query": "plaid paint by numbers for adults",
+      "product_title": "TOCARE Adult Paint by Numbers Kits for Adults,DIY Painting by Numbers On Canvas, 20x16Inch Express Train Station",
+      "esci_label": "Substitute",
+      "gold_same_type": null,
+      "product_id": "B07X28MY7Y",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"paint by numbers\", a different kind of thing."
+    },
+    {
+      "query": "ashley longshore",
+      "product_title": "Ashley",
+      "esci_label": "Irrelevant",
+      "gold_same_type": false,
+      "product_id": "B072Q6RBG6",
+      "judge_same_type": true,
+      "judge_reason": "the head noun is \"Ashley\", exactly what was asked."
+    },
+    {
+      "query": "emergency oil cans 5 gallon",
+      "product_title": "No-Spill 1415 1-1/4-Gallon Poly Gas Can (CARB Compliant)",
+      "esci_label": "Complement",
+      "gold_same_type": false,
+      "product_id": "B001PCRFYG",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"gas can\", not an oil can; it's a different kind of thing."
+    },
+    {
+      "query": "gucci cologne for men gift set",
+      "product_title": "Gucci Guilty by Gucci for Men Eau de Toilette Spray, 3 Fl Oz (Pack of 1)",
+      "esci_label": "Exact",
+      "gold_same_type": true,
+      "product_id": "B004O24Q8W",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"cologne\", not a gift set."
+    },
+    {
+      "query": "untuck shirts",
+      "product_title": "Amazon Essentials Men's Regular-Fit Short-Sleeve Casual Poplin Shirt, Blue Plaid, X-Large",
+      "esci_label": "Substitute",
+      "gold_same_type": null,
+      "product_id": "B0738FQTZN",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"shirt\", not a tool to unbutton it."
+    },
+    {
+      "query": "how to be successful without hurting men's feelings",
+      "product_title": "Bad Girls Throughout History: 100 Remarkable Women Who Changed The World (Ann Shen Legendary Ladies Collection)",
+      "esci_label": "Irrelevant",
+      "gold_same_type": false,
+      "product_id": "1452153930",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"book\", not a specific product or service."
+    },
+    {
+      "query": "laundry bags mesh wash bags",
+      "product_title": "Gogooda 7Pcs Mesh Laundry Bags for Delicates with Premium Zipper, Travel Storage Organize Bag, Clothing Washing Bags for Laundry, Blouse, Bra, Hosiery, Stocking, Underwear, Lingerie",
+      "esci_label": "Exact",
+      "gold_same_type": true,
+      "product_id": "B075YV41GQ",
+      "judge_same_type": true,
+      "judge_reason": "the head noun is \"laundry bags\", exactly what was asked."
+    },
+    {
+      "query": "home made dust collector",
+      "product_title": "SINKINGDOM Automatic Vacuum Switch for Dust Collector, Delay On/Off Electrical Outlet Switches, Eliminating Circuit Breaker Tripping SK50A",
+      "esci_label": "Complement",
+      "gold_same_type": false,
+      "product_id": "B08PVBX1TS",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"dust collector\", a different kind of thing."
+    },
+    {
+      "query": "apple watch series 4",
+      "product_title": "Udaily 8 Pack Screen Protector for Apple Watch 44mm Series 4/5/6 and Apple Watch SE 44mm, Max Coverage Bubble-Free Flexible TPU Film for iWatch 44mm, Easy to Install with Detailed Video, HD Clear",
+      "esci_label": "Complement",
+      "gold_same_type": false,
+      "product_id": "B0875YPB6D",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"screen protector\", not the watch itself."
+    },
+    {
+      "query": "cintos gucci originales para mujer",
+      "product_title": "Gucci 0036S 002 Black 0036S Square Sunglasses Lens Category 3 Size 54mm",
+      "esci_label": "Irrelevant",
+      "gold_same_type": false,
+      "product_id": "B06XCGNNL2",
+      "judge_same_type": true,
+      "judge_reason": "the head noun is \"sunglasses\", not a different product."
+    },
+    {
+      "query": "plaid shirts for women",
+      "product_title": "Amazon Brand - Goodthreads Women's Modal Twill Relaxed Fit Short Sleeve Button Front Shirt, Blue/Red Plaid, Large",
+      "esci_label": "Exact",
+      "gold_same_type": true,
+      "product_id": "B07QQY7ZVL",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"shirt\", not a specific style or pattern."
+    },
+    {
+      "query": "garden wall",
+      "product_title": "RTS Home Accents Rock Lock Interlocking Border System Straight Section With Spikes, 48-Inch Long, 4-Pack",
+      "esci_label": "Complement",
+      "gold_same_type": false,
+      "product_id": "B003P9X6YU",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"border system\", not a wall."
+    },
+    {
+      "query": "halloween miniatures",
+      "product_title": "Department 56 Halloween Accessories for Village Collections Tombstones Figurine Set, Multiple Sizes, Multicolor",
+      "esci_label": "Exact",
+      "gold_same_type": true,
+      "product_id": "B000Q7Q1RI",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"figurines\", not the same as \"miniatures\"."
+    },
+    {
+      "query": "ashley straw",
+      "product_title": "Signature Design by Ashley - Laurentia Glass Table Lamp with Drum Shade - Champagne Toned",
+      "esci_label": "Irrelevant",
+      "gold_same_type": false,
+      "product_id": "B07583Y1RP",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"table lamp\", not a straw."
+    },
+    {
+      "query": "plaid pants pajamas",
+      "product_title": "Just Love Women Pajama Pants/Sleepwear,Pink - Plaid,Medium",
+      "esci_label": "Exact",
+      "gold_same_type": true,
+      "product_id": "B01IRVT2CK",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"pajama pants\", not the same as \"plaid pants\"."
+    },
+    {
+      "query": "hair extensions halo",
+      "product_title": "SARLA Highlight Halo Hair Extension Wavy Curly for Women Dirty Blonde Hidden Wire Headband Size Adjustable Synthetic Hairpieces 14 Inch 3.7 Oz High Temperature Fiber No Clip",
+      "esci_label": "Exact",
+      "gold_same_type": true,
+      "product_id": "B07CZHR149",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"halo\", a different kind of thing from what was asked."
+    },
+    {
+      "query": "balayage wig",
+      "product_title": "HANNE Long Hair Wavy Halloween Wig Synthetic Hair Ombre Blonde Wigs For Black and White Women High Density Glueless Cosplay Party Wigs/Daily Wig (4/Blonde)",
+      "esci_label": "Substitute",
+      "gold_same_type": null,
+      "product_id": "B01NAJCPRK",
+      "judge_same_type": true,
+      "judge_reason": "the head noun is \"wig\", exactly what was asked; \"balayage\" is a hair coloring technique."
+    },
+    {
+      "query": "boy doll clothes 15 inch",
+      "product_title": "Manhattan Toy Baby Stella Happy Little Cloud Baby Doll Clothes for 15\" Dolls",
+      "esci_label": "Complement",
+      "gold_same_type": false,
+      "product_id": "B01N4W5QI5",
+      "judge_same_type": true,
+      "judge_reason": "the head noun is \"doll clothes\", not a different product."
+    },
+    {
+      "query": "gucci belts for women",
+      "product_title": "Gucci 0036S 002 Black 0036S Square Sunglasses Lens Category 3 Size 54mm",
+      "esci_label": "Irrelevant",
+      "gold_same_type": false,
+      "product_id": "B06XCGNNL2",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"sunglasses\", not a belt."
+    },
+    {
+      "query": "plaid dress",
+      "product_title": "Romwe Women's Cute A Line Adjustable Straps Pleated Mini Overall Pinafore Dress Yellow XL",
+      "esci_label": "Substitute",
+      "gold_same_type": null,
+      "product_id": "B07CB8GXDF",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"dress\", not a specific style or pattern."
+    },
+    {
+      "query": "plaid queen comforter",
+      "product_title": "Carstens, Inc Carstens Wrangler Blue Lumberjack Buffalo Plaid Sherpa Fleece 4-Piece Comforter, Queen Bedding Set",
+      "esci_label": "Exact",
+      "gold_same_type": true,
+      "product_id": "B07P79WX1S",
+      "judge_same_type": true,
+      "judge_reason": "the head noun is \"comforter\", not a specific pattern or size."
+    },
+    {
+      "query": "plaid open cardigan flannel",
+      "product_title": "Womens Buffalo Plaid Long Sleeve Plus Size Open Front Elbow Patch Cardigans Yellow",
+      "esci_label": "Substitute",
+      "gold_same_type": null,
+      "product_id": "B07HLC3Z4P",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"cardigan\", not a specific type of fabric or style."
+    },
+    {
+      "query": "apple watch band with case",
+      "product_title": "MARGE PLUS Compatible with Apple Watch Band 40mm 38mm 44mm 42mm, Women Bling Wristband for iWatch SE Series 6 5 4 3 2 1 Metal Stylish Strap",
+      "esci_label": "Complement",
+      "gold_same_type": false,
+      "product_id": "B07T9HDPJN",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"watch band\", not a case."
+    },
+    {
+      "query": "ashley longshore",
+      "product_title": "Mose Mary and Me Ashley Longshore Devotional Prayer Saint Candle",
+      "esci_label": "Exact",
+      "gold_same_type": true,
+      "product_id": "B07ZHQQ7SZ",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"candle\", not a person or brand."
+    },
+    {
+      "query": "ashley longshore",
+      "product_title": "You Don't Look Fat, You Look Crazy: An Unapologetic Guide to Being Ambitchous",
+      "esci_label": "Exact",
+      "gold_same_type": true,
+      "product_id": "B01ERUE0GI",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"book\", not a person's name."
+    },
+    {
+      "query": "ashley straw",
+      "product_title": "Signature Design by Ashley Sweed Valley Jute & Cotton Pouf, 20 x 20 Inches, Beige & White",
+      "esci_label": "Irrelevant",
+      "gold_same_type": false,
+      "product_id": "B07583RR9M",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"pouf\", a different kind of thing from what was asked."
+    },
+    {
+      "query": "archery target",
+      "product_title": "LoveinDIY 10pcs Archery Target Pins Nail Supplies Target Face Pins 5.5x1.9cm",
+      "esci_label": "Complement",
+      "gold_same_type": false,
+      "product_id": "B07R8SJL2T",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"target pins\", not an archery target."
+    },
+    {
+      "query": "plaid dress",
+      "product_title": "Romwe Women's Straps A-line Corduroy Pinafore Bib Pocket Overall Dress Green XL",
+      "esci_label": "Substitute",
+      "gold_same_type": null,
+      "product_id": "B079FF4V2P",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"dress\", not a specific style or pattern."
+    },
+    {
+      "query": "cintos gucci originales para mujer",
+      "product_title": "Gucci OCCHIALE GG0418S-001 BLACK NERO",
+      "esci_label": "Irrelevant",
+      "gold_same_type": false,
+      "product_id": "B07GXRM95R",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"occhiale\", a different kind of thing from \"cintos\"."
+    },
+    {
+      "query": "storage 12 cube organizer",
+      "product_title": "Foldable Cloth Storage Cube Basket Bins Organizer Containers Drawers, 6 Pack, Grey,12\"x12\"x12\"",
+      "esci_label": "Substitute",
+      "gold_same_type": null,
+      "product_id": "B07L874GTS",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"cube organizer\", a different kind of thing from what was asked."
+    },
+    {
+      "query": "ipad pro 3 generation 12.9",
+      "product_title": "Touchpad Keyboard Case for iPad Pro 12.9 inch 2021 5th Generation / 2020 4th Gen / 2018 3rd Gen, iPad Pro 12.9 Case with Wireless Bluetooth Backlight Keyboard - Pencil Holder Included (Black)",
+      "esci_label": "Complement",
+      "gold_same_type": false,
+      "product_id": "B085NHCGBW",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"keyboard case\", not the ipad pro itself."
+    },
+    {
+      "query": "gucci disco",
+      "product_title": "Gucci GG0225S Gold One Size",
+      "esci_label": "Irrelevant",
+      "gold_same_type": false,
+      "product_id": "B076SSXNXC",
+      "judge_same_type": false,
+      "judge_reason": "the head noun is \"disco\", a brand, not the item itself."
+    }
+  ]
+}
