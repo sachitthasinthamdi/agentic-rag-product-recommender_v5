@@ -105,6 +105,76 @@
         "q25": 0.8
       }
     },
+    "fused_w3": {
+      "precision_at_k": 0.568,
+      "n_matched": 71,
+      "n_judged": 125,
+      "n_unparsed": 0,
+      "queries_with_zero_match": 2,
+      "overlap_with_oracle": 0.64,
+      "per_query": {
+        "q01": 1.0,
+        "q02": 0.6,
+        "q03": 0.2,
+        "q04": 0.4,
+        "q05": 0.2,
+        "q06": 0.4,
+        "q07": 1.0,
+        "q08": 1.0,
+        "q09": 0.4,
+        "q10": 0.4,
+        "q11": 0.8,
+        "q12": 0.0,
+        "q13": 1.0,
+        "q14": 0.2,
+        "q15": 0.2,
+        "q16": 0.8,
+        "q17": 0.8,
+        "q18": 1.0,
+        "q19": 0.6,
+        "q20": 0.0,
+        "q21": 0.6,
+        "q22": 0.6,
+        "q23": 1.0,
+        "q24": 0.2,
+        "q25": 0.8
+      }
+    },
+    "fused_w5": {
+      "precision_at_k": 0.616,
+      "n_matched": 77,
+      "n_judged": 125,
+      "n_unparsed": 0,
+      "queries_with_zero_match": 2,
+      "overlap_with_oracle": 0.72,
+      "per_query": {
+        "q01": 1.0,
+        "q02": 0.6,
+        "q03": 0.2,
+        "q04": 0.4,
+        "q05": 0.2,
+        "q06": 0.8,
+        "q07": 1.0,
+        "q08": 1.0,
+        "q09": 0.6,
+        "q10": 0.4,
+        "q11": 0.8,
+        "q12": 0.0,
+        "q13": 1.0,
+        "q14": 0.6,
+        "q15": 0.2,
+        "q16": 0.8,
+        "q17": 1.0,
+        "q18": 1.0,
+        "q19": 0.6,
+        "q20": 0.0,
+        "q21": 0.6,
+        "q22": 0.6,
+        "q23": 1.0,
+        "q24": 0.2,
+        "q25": 0.8
+      }
+    },
     "en_oracle": {
       "precision_at_k": 0.704,
       "n_matched": 88,
@@ -2548,6 +2618,1610 @@
         }
       ]
     },
+    "fused_w3": {
+      "q01": [
+        {
+          "id": "B0BQHDQYHY",
+          "title": "Wireless Earbuds,IPX5 Waterproof Bluetooth Earbuds Stereo Earphone, Bluetooth 5.0 in-Ear Earbuds with Wireless Bluetooth Headphone 30H Playtime, for iPhone/Android",
+          "category": "Cell Phones & Accessories",
+          "score": 0.0617
+        },
+        {
+          "id": "B0C98JG6RB",
+          "title": "Wireless Earbuds,Bluetooth Headphones IPX7 Waterproof Wireless Bluetooth Earphone with Microphone Charging Case, Pop-ups Auto Pairing Hi-Fi Stereo Sound Headset for iOS/Android",
+          "category": "Cell Phones & Accessories",
+          "score": 0.0611
+        },
+        {
+          "id": "B0C1YBF85R",
+          "title": "Waterproof Bluetooth 5.2 True Wireless Headset,Touch Control,30H Cycle Playback time TWS t,with Charging Box and Microphone,in-Ear Stereo Headset b",
+          "category": "Electronics",
+          "score": 0.0608
+        },
+        {
+          "id": "B0BSC19TPD",
+          "title": "Waterproof Bluetooth 5.2 True Wireless Earbuds, Touch Control, in-Ear Stereo Earphones Headset,30H Cyclic Playtime TWS Headphones with Charging Case and mic B",
+          "category": "All Electronics",
+          "score": 0.0599
+        },
+        {
+          "id": "B0C61FTLLT",
+          "title": "Bluetooth Headsets Wireless Earbuds IPX5 Waterproof Sports 3D Stereo Headphones with 24Hr Playtime Noise Canceling in-Ear Built-in Mic Earphone for iPhone/Android/iOS.",
+          "category": "All Electronics",
+          "score": 0.059
+        }
+      ],
+      "q02": [
+        {
+          "id": "B0BWFT9WRS",
+          "title": "Phone Case Jack TPU Hughes Shockproof Cover Accessories Protect Compatible with iPhone 14 Pro Max 13 12 11 X Xs Xr 8 7 6 6s Mini Plus Galaxy S9 S10 S20 S21 Ultra Plus Note Transparent",
+          "category": "Cell Phones & Accessories",
+          "score": 0.0635
+        },
+        {
+          "id": "B0BXCY66JQ",
+          "title": "Case Phone Compatible with Samsung iPhone Scott Se 2020 Pilgrims X Universe 14 Vs 13 The Xr Universe 7 8 11 12 Pro Max Accessories Scratch Waterproof",
+          "category": "Cell Phones & Accessories",
+          "score": 0.0534
+        },
+        {
+          "id": "B0BRVMSV6R",
+          "title": "Phone Case Compatible with I-P Galaxy Billy Mini Loomis X Horror 7 Collage Se Quote 11 TPU 6 6s 8 Xs Xr Plus 12 13 Pro Max 2020 Pc Clear 14 Anti Waterproof Scratch Accessories",
+          "category": "Cell Phones & Accessories",
+          "score": 0.0508
+        },
+        {
+          "id": "B0BS47N6HB",
+          "title": "Phone Case Soviet Accessories Union Shockproof Passport Cover Compatible with iPhone 14 13 Pro Max 12 11 X Xs Xr 8 7 6 6s Mini Plus Galaxy Note S9 S10 S20 S21 Ultra Plus Transparent",
+          "category": "Cell Phones & Accessories",
+          "score": 0.0484
+        },
+        {
+          "id": "B0C7GMRZGR",
+          "title": "Magnetic Phone Case Shockproof Cover Cases Magnet Ring Wierless Charging Compatible with iPhone 13 Pro Soft TPU Protective Bumper Red",
+          "category": "Cell Phones & Accessories",
+          "score": 0.0476
+        }
+      ],
+      "q03": [
+        {
+          "id": "B0BTYR4SFX",
+          "title": "Apple USB C to USB C Cable 6ft,2 Pack Long Type C Charger Fast Charging Cord for Apple MacBook Pro 2020/2019/2018/2017/2016,iPad Air 4/5,iPad Mini 6,iPad Pro 12.9/11",
+          "category": "Industrial & Scientific",
+          "score": 0.0653
+        },
+        {
+          "id": "B0C4PNWVN1",
+          "title": "[1Pack, 3.2ft] USB Type C Cable 5A Fast Charging, USB C to USB A Charger Cord Support QC Compatible Laptop, Tablet, Smartphone Other USB-C Device ect.White",
+          "category": "Electronics",
+          "score": 0.0648
+        },
+        {
+          "id": "B0CDLV38KL",
+          "title": "USB C to USB C Cable 3ft, 2Pack 60W C to C Fast Charging Cable Type-C to TypeC Power Cord for Apple MacBook Air/Pro, Samsung S23/22/21, iPad Pro 12.9/11/Air/Mini, Pixel, LG All PD USB C Charger",
+          "category": "Industrial & Scientific",
+          "score": 0.0621
+        },
+        {
+          "id": "B0C7BHNQVR",
+          "title": "(3-Pack) 3.3 ft USB C Cable 20w Fast Charging USB C-to-C Cable Compatible with All USB-C Devices",
+          "category": "Electronics",
+          "score": 0.0618
+        },
+        {
+          "id": "B0CJC4HK5G",
+          "title": "USB C to USB C Cable 2pack 6FT 60W [Apple MFi Certified], Type C Long Apple Fast Charge Cord,Fast Charger Wire Compatible with iPhone 15/15Pro/15 Plus/15 Pro Max, iPad Pro 12.9 Air Mini MacBook Air",
+          "category": "Electronics",
+          "score": 0.0595
+        }
+      ],
+      "q04": [
+        {
+          "id": "B0C3P8KLM7",
+          "title": "adidas Men's Galaxy 5 Lightweight Running Shoe",
+          "category": "AMAZON FASHION",
+          "score": 0.0648
+        },
+        {
+          "id": "B0BVGC5T6D",
+          "title": "WEITE Mens Slip On Walking Shoes Fashion Sneakers for Men - Running Shoes for Men Lightweight Breathable Non Slip Mesh Gym Tennis Comfortable Arch Support Athletic Sneakers",
+          "category": "AMAZON FASHION",
+          "score": 0.064
+        },
+        {
+          "id": "B0C6SQVD15",
+          "title": "Men's Running Shoes Fashion Walking Lightweight Wear-Resistant Sneakers Tennis Casual Workout Cross Trainers",
+          "category": "AMAZON FASHION",
+          "score": 0.063
+        },
+        {
+          "id": "B0C3Q13B59",
+          "title": "adidas Men's Coreracer Lightweight Running Shoe",
+          "category": "AMAZON FASHION",
+          "score": 0.0627
+        },
+        {
+          "id": "B0C6Q7WH2R",
+          "title": "Mens Walking Shoes Lightweight Breathe Mesh Running Shoes Slip On Fashion Tennis Sneakers Comfort Gym Workout Zapatos de Hombre",
+          "category": "AMAZON FASHION",
+          "score": 0.062
+        }
+      ],
+      "q05": [
+        {
+          "id": "B0BT7YVMQJ",
+          "title": "Vintage Leather Women's Crossbody bags Medium Size Sling Women Purse, Shoulder bags & Handbags",
+          "category": "AMAZON FASHION",
+          "score": 0.0629
+        },
+        {
+          "id": "B0C1X8N3MZ",
+          "title": "Lederbuck Olga Large Soft Real Leather Womens Crossbody Handbags and Purses-Triple Zip Premium Sling Crossover Shoulder Bag",
+          "category": "Clothing, Shoes & Jewelry",
+          "score": 0.0615
+        },
+        {
+          "id": "B0BYHL67LC",
+          "title": "Genuine Leather Top Handle Satchel Purse for Women Vintage Handmade Handbag Retro Designer Crossbody Bags",
+          "category": "AMAZON FASHION",
+          "score": 0.0587
+        },
+        {
+          "id": "B0BP6C5LW9",
+          "title": "Pascado Vintage leather crossbody mini wallet clutch purse shoulder handbag for women brown 7x9",
+          "category": "Handmade",
+          "score": 0.0584
+        },
+        {
+          "id": "B0BTFR4MWB",
+          "title": "Women Genuine Leather Shoulder Bag Floral-Embossed Crossbody Bag Handbag Purse for Women",
+          "category": "AMAZON FASHION",
+          "score": 0.0571
+        }
+      ],
+      "q06": [
+        {
+          "id": "B0BXZ2F996",
+          "title": "TRIUMPH Cartmel Black T-Shirt",
+          "category": "Automotive",
+          "score": 0.0527
+        },
+        {
+          "id": "B0C5H8G95T",
+          "title": "Moc.Deamiarr Mazinger z Shirt Mens Cool wear Fashion T-Shirt Tops Black",
+          "category": "AMAZON FASHION",
+          "score": 0.0508
+        },
+        {
+          "id": "B0C49DCBWS",
+          "title": "ISHAANAV Marilyn Music and Manson Men's Comfortable Short Sleeve Shirt Round Neck Cotton Fashion T-Shirt Black",
+          "category": "AMAZON FASHION",
+          "score": 0.0492
+        },
+        {
+          "id": "B0C3RXJRHK",
+          "title": "Bioworld mens Classic Fit Short Sleeve T-shirt",
+          "category": "AMAZON FASHION",
+          "score": 0.0486
+        },
+        {
+          "id": "B0C1YJCS2L",
+          "title": "Mens Vintage T-Shirt Fashion Neck Top Soft Cotton Round Neck Short Sleeve Tshirts Black",
+          "category": "AMAZON FASHION",
+          "score": 0.0484
+        }
+      ],
+      "q07": [
+        {
+          "id": "B0BW6K3PVF",
+          "title": "Comfort and Softness Memory Foam Pillow Sleep Mask, Smooth Pillow That Feel Like Cat Belly, Ideal for Side, Back, Stomach Sleepers, Foam Pillow, Sleeping Pillow, Comfy Pillow for Sleeping",
+          "category": "Amazon Home",
+          "score": 0.0639
+        },
+        {
+          "id": "B0BVZ3GCJV",
+          "title": "MANSVCIH Memory Foam Pillows King Size Set of 2,Adjustable Cooling Bed Pillows for Sleeping Good for Side and Back Sleeper with Washable Removable Bamboo Cover",
+          "category": "Amazon Home",
+          "score": 0.0619
+        },
+        {
+          "id": "B0BV62T7K3",
+          "title": "COYMOS Bean Bag Filler 10lbs Pillow Stuffing for Couch Pillows, Soft Shredded Memory Foam Polyfill Stuffing for Stuffed Animals, Bag Chair, Dog Bed, Yellow",
+          "category": "Home & Kitchen",
+          "score": 0.0615
+        },
+        {
+          "id": "B0C998R78Z",
+          "title": "Memory Foam Pillows Neck Pillow for Sleeping Ergonomic Pillow Contour Cervical Pillow Neck Support Bed Pillow for Side Back Sleeper, Orthopedic Pillow for Neck Pain Relief",
+          "category": "Home & Kitchen",
+          "score": 0.0608
+        },
+        {
+          "id": "B0C1HMC9P3",
+          "title": "Simply Home Bamboo Comfort Neck Pillow with Shredded Memory Foam - Hypoallergenic, Cooling Technology for Restful Sleep and Ergonomic Support - Small Camp Pillow in Carrying Case",
+          "category": "Amazon Home",
+          "score": 0.0591
+        }
+      ],
+      "q08": [
+        {
+          "id": "B09TPM7VCD",
+          "title": "PIGUDA Anime Blackout Curtain for Bedroom Living Room Dorm Darkening Home Curtain Grommet Set of 2 Panels 63x72in",
+          "category": "Amazon Home",
+          "score": 0.0612
+        },
+        {
+          "id": "B0BW8RNF7G",
+          "title": "Blackout Curtains,100% Window Blinds Black Out Curtains,Portable Blackout Blinds Window Shades,118\" x 57\" Blinds for Window,Blackout Shades for Indoor Windows Home Bedroom,Blackout Window Cover",
+          "category": "Amazon Home",
+          "score": 0.0597
+        },
+        {
+          "id": "B0BVMPKGWR",
+          "title": "Portable Blackout Shades,Blackout Blind Curtain,118\" x 57\" Travel Window Blackout Curtains, Blackout Window Cover,Room Darkening Curtains, Blackout Blinds Window Curtains for Bedroom Nursery Dorm Room",
+          "category": "Amazon Home",
+          "score": 0.0591
+        },
+        {
+          "id": "B0BY4PC5HL",
+          "title": "Bohemian Sun Moon Curtains, Vintage Mandala Celestial Orange Sun Moon Chic Mysterious Universe Starry Sky, Bedroom Living Room Blackout Decorative Curtains, 2 Panel Set, 42x45 in.",
+          "category": "Amazon Home",
+          "score": 0.0562
+        },
+        {
+          "id": "B0761KK88P",
+          "title": "LB Teen Kids Black Cat Decor Room Darkening Blackout Curtains,Black Cat with Bright Eyes 3D Window Curtains Drapes for Living Room Bedroom 2 Panels Set,42 x 63 Inches",
+          "category": "Amazon Home",
+          "score": 0.0542
+        }
+      ],
+      "q09": [
+        {
+          "id": "B0BWSDWM91",
+          "title": "Outset Non-Stick Cheese Melt Pan, Carbon Steel Raclette",
+          "category": "Amazon Home",
+          "score": 0.05
+        },
+        {
+          "id": "B0BTJDWNGF",
+          "title": "Metal Spatula For Cast Iron Skillet And Flat Top Grill - Stainless Steel Spatula Heavy Duty Barbecue Turner Grill Spatula With Sturdy Handle And Cutting Edges. Great for Cooking BBQ, Bacon, Burgers",
+          "category": "Patio, Lawn & Garden",
+          "score": 0.0492
+        },
+        {
+          "id": "B0BRKJ6WZF",
+          "title": "GothaBach Mini Cast Iron Skillet, Pre Seasoned Small Cast Iron Skillet for Baked Cookie, Brownie, Egg Cakes (6'')",
+          "category": "Amazon Home",
+          "score": 0.0492
+        },
+        {
+          "id": "B071JW7NJW",
+          "title": "Nest Homeware Cast Iron 9 Inch Skillet",
+          "category": "Amazon Home",
+          "score": 0.0484
+        },
+        {
+          "id": "B0C9WDN739",
+          "title": "Stainless Steel Metal Durable Sieve Spoon, Sieve Mesh Strainer Flat Cooking Skimmer Ladle Colander Food Strainer",
+          "category": "Home & Kitchen",
+          "score": 0.048
+        }
+      ],
+      "q10": [
+        {
+          "id": "B0BVW874R2",
+          "title": "Glass Coffee Server for Drip Coffee Maker, Standard Glass Coffee Carafe, Coffee Pot with Lid, Clear, 03 800ml(27oz)",
+          "category": "Amazon Home",
+          "score": 0.0643
+        },
+        {
+          "id": "B0BWSMV57F",
+          "title": "Cuisinart Coffee Maker Barista System, Coffee Center 4-In-1 Coffee Machine, Single-Serve Coffee, Espresso & Nespresso Capsule Compatible, 12-Cup Carafe, Black, SS-4N1",
+          "category": "Home & Kitchen",
+          "score": 0.064
+        },
+        {
+          "id": "B0BTYGY5Z8",
+          "title": "Rise by Dash Coffee Maker Blue Sky",
+          "category": "Amazon Home",
+          "score": 0.0625
+        },
+        {
+          "id": "B08VWDXVNN",
+          "title": "ChefWave Espresso Machine for Nespresso Compatible Capsule - Drip Tray & Cup Support Set",
+          "category": "Amazon Home",
+          "score": 0.0616
+        },
+        {
+          "id": "B0BVW91YV2",
+          "title": "Drip Tray Floater Compatible With Philips Coffee Machine",
+          "category": "Amazon Home",
+          "score": 0.06
+        }
+      ],
+      "q11": [
+        {
+          "id": "B0BMWQNMPS",
+          "title": "11 PCS Mini Screwdriver Set, Small Screwdriver Set of Flathead and Phillips Screwdrivers, Screwdriver Set for Glasses, Watch, Phone, Toys, Computer Repair",
+          "category": "Tools & Home Improvement",
+          "score": 0.0597
+        },
+        {
+          "id": "B0BVJ3ZTQT",
+          "title": "Electric Screwdriver Precision Screwdriver Set Cordless Screwdriver Mini Screwdriver Set Repair Tool Kit for Phones Watch Camera Laptops,black29",
+          "category": "Tools & Home Improvement",
+          "score": 0.0582
+        },
+        {
+          "id": "B0BWFJ1FT7",
+          "title": "Screwdriver Set 10 Piece, Cushion Grip, 5 Phillips and 5 Flat Head Tips",
+          "category": "Tools & Home Improvement",
+          "score": 0.0492
+        },
+        {
+          "id": "B0BRQZLTH7",
+          "title": "ABN Magnetic Screwdriver Set with Case - 43pc Slotted Hex Flat Torx Phillips Precision Screw Driver and Drill Bit Set",
+          "category": "Tools & Home Improvement",
+          "score": 0.0484
+        },
+        {
+          "id": "B0CB45G7VZ",
+          "title": "8 Pieces Professional Watch Screwdriver Set Micro Precision Screwdriver Set 0.6-1.6 mm Watch Repair Screwdriver Set with 2 Tweezers for Watch Eyeglasses Repair Jewelry Work Electronics Repair",
+          "category": "Tools & Home Improvement",
+          "score": 0.0476
+        }
+      ],
+      "q12": [
+        {
+          "id": "B0C1NR47KZ",
+          "title": "Electric Chainsaw Cordless, 20V Battery Powered Chainsaw, Wesoky 10'' Battery Chainsaw 4000mAh Fast Charger Chain Saw Kit, Brushless Chain Saws for Wood Cutting Tree Trimming, Medium Chainsaw",
+          "category": "Tools & Home Improvement",
+          "score": 0.064
+        },
+        {
+          "id": "B0BVJ3ZTQT",
+          "title": "Electric Screwdriver Precision Screwdriver Set Cordless Screwdriver Mini Screwdriver Set Repair Tool Kit for Phones Watch Camera Laptops,black29",
+          "category": "Tools & Home Improvement",
+          "score": 0.0631
+        },
+        {
+          "id": "B09138XCD1",
+          "title": "Mini Chainsaw 6-Inch Cordless Battery Powered Chain Saw with 2PCS 2.0Ah Rechargeable Battery Operated, 21V Powerful Brushless Electric Chainsaw, Handheld Small Chainsaw for Wood Cutting Tree Trimming",
+          "category": "Tools & Home Improvement",
+          "score": 0.0613
+        },
+        {
+          "id": "B0BW95VZC5",
+          "title": "【2-in-1】 Cordless Pole Saw and Mini Chainsaw,21v 3.0ah Li-ion Battery, Power Pole 6 Guides, Cordless Power Pole Saw,Adjustable Length Pole Saw 50-225cm Electric Pole saws for Tree Trimming",
+          "category": "Tools & Home Improvement",
+          "score": 0.0597
+        },
+        {
+          "id": "B0BVJ3NBWN",
+          "title": "Cordless Screwdriver 3.6V Power Screwdriver Rotating Electric Screwdriver 1/4 inch with Charger LED Light Rotating Handle Magnetic Bits,black22",
+          "category": "Tools & Home Improvement",
+          "score": 0.0594
+        }
+      ],
+      "q13": [
+        {
+          "id": "B0BXQ6W4JP",
+          "title": "USB C Car Charger 45W / 45W Super Mini Toocki All Metal Fast USB Car Charger Adapter PD&QC 3.0 Dual Port Compatible with iPhone 14 Pro Max 13 12 11 X XR XS Samsung Galaxy S23/22/21",
+          "category": "All Electronics",
+          "score": 0.0651
+        },
+        {
+          "id": "B0BW3RMSCW",
+          "title": "2Pack USB C Fast Car Charger, Dual Port Type C Fast Charger Adapter USB Car Charger Plug Fast Charging for iPhone 14/14Pro/13/13 Pro Max/12 Mini/11 Pro/X/XR/iPad Pro",
+          "category": "All Electronics",
+          "score": 0.064
+        },
+        {
+          "id": "B0C4L4R1Z1",
+          "title": "[All Metal] Dual QC3.0 Car Charger with 3FT USB Type C Cable and Cable Clip [Dual QC3.0 Port] 36W/6A Fast Car Charger Adapter Mini Cigarette Lighter USB Charger Quick Charge 3.0",
+          "category": "All Electronics",
+          "score": 0.0637
+        },
+        {
+          "id": "B0C2GR2PKK",
+          "title": "iPhone Fast Car Charger,2Pack Dual Port USB C Car Charger[Apple MFI Certified]Power Delivery Apple Car Adapter with 2Pack Lightning Cable Type C Rapid Car Charging for iPhone 14/13/12/11/Xs/Xr/SE/iPad",
+          "category": "Industrial & Scientific",
+          "score": 0.0625
+        },
+        {
+          "id": "B0BVGT9GZ6",
+          "title": "12/24V Socket Dual USB Type C PD 3.0 (60W) + USB A (36W) Fast Charger for Car, Boat, Marine & RVs (2-Pack)",
+          "category": "All Electronics",
+          "score": 0.0604
+        }
+      ],
+      "q14": [
+        {
+          "id": "B0C4TZG7V5",
+          "title": "Anime Windshield Sunshade Umbrella - Car Front Window Visor Blocks UV Rays - Folding Heat Protection Auto Sun Shield Cover - Windscreen Shade Universal for Most Sedans, Truck, SUV (53\" x31”)",
+          "category": "Automotive",
+          "score": 0.0542
+        },
+        {
+          "id": "B0BTT16LJ7",
+          "title": "Car Sunroof Seal Car Windshield Seal Strip,22 Ft Windshield Rubber Seal,Car Weather Stripping T Shape Sealing Strip,Automotive Door Sealing Strip,Windshield Trim Stripping for Car Roof Front Rear",
+          "category": "Automotive",
+          "score": 0.0529
+        },
+        {
+          "id": "B0BPLYMRL8",
+          "title": "Car Windshield Rubber Seal, 13Ft Windshield Decorative Strip, Car Rain Strip, Car Window Seal Strip, Universal T-seal for Front and Rear Windshields of Cars (19mm)",
+          "category": "Automotive",
+          "score": 0.052
+        },
+        {
+          "id": "B0BVQJL885",
+          "title": "Rose Gold Glitter Eyes Car Windshield Sunshade,Folding Sun Shade Auto Sun Visor Heat Protection Front Window, Car Sunscreen Blocks UV Rays and Keeps Vehicle Cool (55 x 30 Inch)",
+          "category": "Automotive",
+          "score": 0.0495
+        },
+        {
+          "id": "B0BR5TTHB6",
+          "title": "Windshield Wiper Replacement for, Blade Wiper 20\" + 20\" Front Window Car Wiper Blade (set of 2) - Series: YKK556GA",
+          "category": "Automotive",
+          "score": 0.0492
+        }
+      ],
+      "q15": [
+        {
+          "id": "B0BXK7SM9G",
+          "title": "Yoga Mat - Premium 15 Mm Extra Thick Non Slip Exercise & Fitness Mat,Anti-Skid Sports Fitness Mat for All Types of Yoga, Pilates & Floor Workouts (23.6 x 9.8 x 0.6inch Thick)",
+          "category": "Sports & Outdoors",
+          "score": 0.0646
+        },
+        {
+          "id": "B0B4NTFH5V",
+          "title": "ODODOS Yoga Mat for Women Men, Eco-Friendly Non Slip Exercise & Fitness Mat for Yoga Pilates Floor Workouts (5mm/ 6mm/ 10mm Thick)",
+          "category": "Sports & Outdoors",
+          "score": 0.0637
+        },
+        {
+          "id": "B0C6PWXM2V",
+          "title": "Yoga Mat, Premium 1/4 inch Imprint Non Slip Extra Thick Fitness & Exercise Mat with Carrying Strap, Workout Mat for All Types of Yoga, Pilates and Floor Exercises",
+          "category": "Sports & Outdoors",
+          "score": 0.0619
+        },
+        {
+          "id": "B0BZG3MW6Y",
+          "title": "Jovely TPE Non-Slip Yoga Mat, 72\"x24\", 1/4\"(6mm) Thick, Extra Thick Eco Friendly Exercise Mat with Carrying Strap, Perfect for Yoga, Pilates, and Floor Workouts, Anti-Tear Material for Women and Men",
+          "category": "Sports & Outdoors",
+          "score": 0.0618
+        },
+        {
+          "id": "B0BY29WG2W",
+          "title": "Yoga Mat, Yoga Exercise Mats for Home Workout, Women & Men Gym Mat, 23.6 Inch All Purpose Extra Thick High Density Anti-tear Rubber Travel Sport Yoga Mats Non Slip, with Carrying Strap #Today Pink",
+          "category": "Sports & Outdoors",
+          "score": 0.0588
+        }
+      ],
+      "q16": [
+        {
+          "id": "B09PR4ZNRF",
+          "title": "Adjustable Dumbbell Set, 25lb/55lb Free Weight Set Pair Fast Adjust Dumbbell Weight for Exercises,Dumbbells for Men and Women Home Gym Workout Equipment",
+          "category": "Sports & Outdoors",
+          "score": 0.0656
+        },
+        {
+          "id": "B0CBN2NRZ1",
+          "title": "Rendpas Adjustable Dumbbell 25lb Weights,1-Sec Adjustable Dumbbell Single, 5 in 1 Free Weights Dumbbell with Anti-Slip Texture Handle, Exercise & Fitness Dumbbells, Weights Set For Home Gym For Men and Women",
+          "category": "Sports & Outdoors",
+          "score": 0.0635
+        },
+        {
+          "id": "B0C74454GJ",
+          "title": "Kweetle Upgrade 330LBS Dumbbell Stand Adjustable Dumbbell Rack (Sliver)",
+          "category": "Sports & Outdoors",
+          "score": 0.0625
+        },
+        {
+          "id": "B0C7QS1YWZ",
+          "title": "FLYBIRD Adjustable Dumbbell,25LB/25LBx2 Dumbbell for Men and Women with Anti-Slip Metal Handle,Fast Adjust Weight by Turning Handle, Black Dumbbell with Tray Suitable for Full Body Workout Fitness",
+          "category": "Sports & Outdoors",
+          "score": 0.0616
+        },
+        {
+          "id": "B0BX5BLJZH",
+          "title": "Ankle Weights Weight Lifting Adjustable Weights Dumbbell Ankle Strap for Exercise Lower Body Strength Training Fitness, Strengthen Glutes, Hamstrings, Quads, and Hip Flexors",
+          "category": "Sports & Outdoors",
+          "score": 0.0615
+        }
+      ],
+      "q17": [
+        {
+          "id": "B0BTMXQDH1",
+          "title": "Revitalize Wellness Liposomal Vitamin C - 1000mg Buffered Liquid Vitamin C Supplement - Immune + Antioxidant Support - Liposomes for Superior Absorption",
+          "category": "Health & Personal Care",
+          "score": 0.0646
+        },
+        {
+          "id": "B0BZWWBFJF",
+          "title": "Nutri Vitamin C Chewable Gummies - (2 Pack) Adults and Kids - Daily Supplement for Immune Function & Overall Children's and Adult's Health | Non-GMO Vegan with 250 mg of Vitamin C Per Yummy Gummy",
+          "category": "Health & Personal Care",
+          "score": 0.0625
+        },
+        {
+          "id": "B0BT1D51XP",
+          "title": "Research Labs Liposomal Vitamin C Supplement w/Enhanced Absorption LipoQuil-C™ | 120 Capsules Immune Support Collagen Booster | High Dose Fat Soluble Vita C 1000mg Buffered | Non GMO, Vegan Pills",
+          "category": "Health & Household",
+          "score": 0.0611
+        },
+        {
+          "id": "B0BV8BM7LX",
+          "title": "NOW Supplements, Liposomal Vitamin C, Immune & Collagen Support*, 120 Veg Capsules",
+          "category": "Health & Personal Care",
+          "score": 0.061
+        },
+        {
+          "id": "B003CNY2N8",
+          "title": "Fruit C 100 (Chewable Vitamin C) - 100 Tablets",
+          "category": "Health & Personal Care",
+          "score": 0.0605
+        }
+      ],
+      "q18": [
+        {
+          "id": "B0BWS81QNP",
+          "title": "NBGRLVS Sonic Electric Toothbrush for Adults, Electronic Toothbrush with 5 Modes, 4 Brush Heads, Travel Rechargeable Power Toothbrush for 30 Days, Ultrasonic Battery Toothbrush",
+          "category": "Health & Personal Care",
+          "score": 0.0656
+        },
+        {
+          "id": "B0CDGV3N9Z",
+          "title": "2 Pack Electric Toothbrush for Adults, with 8 Brush Heads, 6 Modes 42000vpm IPX7 Waterproof, Travel Electric Toothbrush Black+Pink",
+          "category": "Health & Personal Care",
+          "score": 0.064
+        },
+        {
+          "id": "B0BT9M79G5",
+          "title": "YteaTh Electric Toothbrush for Adults and Women - Rechargeable Power Electronic Toothbrushes with 5 Modes and Timer, 6 Brush Heads, Pink",
+          "category": "Health & Personal Care",
+          "score": 0.0637
+        },
+        {
+          "id": "B0BT9MQLHK",
+          "title": "YteaTh Sonic Electric Toothbrush for Adults and Women - Rechargeable Electronic Toothbrushes with 5 Modes and Timer, 6 Brush Heads, White",
+          "category": "Health & Household",
+          "score": 0.0614
+        },
+        {
+          "id": "B0C3G4YCJB",
+          "title": "SSZMDLB Electric Toothbrush with 8 Brush Heads 6 Modes Cleaning Whitening IPX7 Waterproof 2 Minutes Smart Timer 30 Seconds Pause Longer Life Faster Charging　 (Black)",
+          "category": "Health & Household",
+          "score": 0.0595
+        }
+      ],
+      "q19": [
+        {
+          "id": "B0BT75XGW5",
+          "title": "Pentel EnerGel RTX Retractable Liquid Gel Pen, (1.0mm) Metal Tip, Bold Line, Assorted Ink Colors (Red, Blue, Green, Violet)",
+          "category": "Office Products",
+          "score": 0.0651
+        },
+        {
+          "id": "B0BV6CBS48",
+          "title": "Erasable Pen 1PC Gel Pens 0.5mm Blue Gel Pens Cartoons Press Pen Cute Stationary Office Accessories School Office Supplies(red Random 1pc)",
+          "category": "Office Products",
+          "score": 0.0637
+        },
+        {
+          "id": "B0BXW6TL4B",
+          "title": "Cobee® Erasable Gel Pens, 12 Pieces 0.5mm Retractable Eraser Rollerball Pen Blue Ink Erasable Pen Mistakes Disappear Fine Point Pen Writing Planner Drawing School Supplies(Blue)",
+          "category": "Office Products",
+          "score": 0.0621
+        },
+        {
+          "id": "B0C8B5NPMX",
+          "title": "Cra-Z-Art Stealth Retractable 4ct Gel Pen Plastic Barrel Black, Blue and Red Ink",
+          "category": "Office Products",
+          "score": 0.0612
+        },
+        {
+          "id": "B0C34D233W",
+          "title": "Cooapen Cute Pens Galaxy Colored Gel Ink Pens Set for Bullet Journaling Writing Planner Note Taking, 0.5 mm Fine Point Colorful Gel Ink Pens, 10 Count",
+          "category": "Office Products",
+          "score": 0.06
+        }
+      ],
+      "q20": [
+        {
+          "id": "B0C344TRVW",
+          "title": "ERTUPE Women's 2 Piece Casual Blazers Open Front Long Sleeve Work Office Jackets and Pencil Pants Business Office Suit Set",
+          "category": "Amazon Home",
+          "score": 0.0492
+        },
+        {
+          "id": "B0BRKY2FMW",
+          "title": "Men's Slim Fit Dress Pants,Chinos Plaid Striped Printed Stretch Flat-Front Skinny Business Pencil Long Pants",
+          "category": "Clothing, Shoes & Jewelry",
+          "score": 0.0484
+        },
+        {
+          "id": "B0C3C7BJXH",
+          "title": "MINTLIMIT Womens Long Sleeve Notched Lapel Blazers with Pockets Button Front Work Office Blazer Jacket Suit",
+          "category": "AMAZON FASHION",
+          "score": 0.0476
+        },
+        {
+          "id": "B0BWDXGTTT",
+          "title": "MNBCCXC Womens Pants Printed Loose Wide Leg Elastic High Waist Straight Leg with Business Casual Pants for Women with",
+          "category": "Clothing, Shoes & Jewelry",
+          "score": 0.0469
+        },
+        {
+          "id": "B0BWNYP1DH",
+          "title": "PIER 17 Button Down Shirts for Women, Tailored Long Sleeve Casual Business Professional Office Work Collared Dress Blouse",
+          "category": "AMAZON FASHION",
+          "score": 0.0462
+        }
+      ],
+      "q21": [
+        {
+          "id": "B0BX75JT95",
+          "title": "Wired Gaming Mouse , Optical USB Mice for Laptop/Desktop, 800 to 1600 3 Adjustable DPI and RGB Light, Ergonomic with 4 Programmable Buttons for Computer Windows 7/8/10/XP Vista Linux Chromebook PC",
+          "category": "All Electronics",
+          "score": 0.0633
+        },
+        {
+          "id": "B0BZTYYRT3",
+          "title": "KISSU Wireless Mouse, Powerful 1725 DPI Optical Sensor, Scroll Wheel",
+          "category": "All Electronics",
+          "score": 0.0609
+        },
+        {
+          "id": "B09YYZ3GG6",
+          "title": "Wireless Mouse, 2.4Ghz Wireless Mouse Computer Mouse 1200DPI,6 Buttons with Nano Receiver for Laptop,PC,Chromebook,Computer,Notebook,Office (Grey)",
+          "category": "All Electronics",
+          "score": 0.059
+        },
+        {
+          "id": "B0BZXQL9ZM",
+          "title": "Gamer Fanatic Q15 RGB Wireless Gaming Mouse Ergonomic LED Black Multi-Coloured Lightweight 6 Buttons Great Online Gaming Experience, Long Battery Life, Nicely Designed",
+          "category": "Video Games",
+          "score": 0.0584
+        },
+        {
+          "id": "B0BV6RT1PK",
+          "title": "soputry Wireless Ergonomics Metal Mouse, Rechargeable Wireless Mouse with 2.4GHz Nano USB Receiver, Waterproof Silent Mouse Aluminum Alloy Integrated Base, Ergonomic Optical Portable Mouse (Grey)",
+          "category": "All Electronics",
+          "score": 0.0576
+        }
+      ],
+      "q22": [
+        {
+          "id": "B0C27DZY6H",
+          "title": "RGB Mechanical Gaming Keyboard, 104 Keys USB Wired Keyboard with 20 True Backlit Modes, Clicky Blue Switches, 100% Anti-Ghosting - Waterproof Mechanical Keyboard for Windows PC/MAC Games",
+          "category": "Video Games",
+          "score": 0.0653
+        },
+        {
+          "id": "B0BW9DVFJ7",
+          "title": "GOWENIC 6 Keys Programmable Keypad, One Handed Macro Mechanical Keyboard with Knob OSU Gaming Keyboard for Office, Gaming, Industrial Control, Laboratory",
+          "category": "Computers",
+          "score": 0.0633
+        },
+        {
+          "id": "B0BVFP7XKT",
+          "title": "E-YOOSO Z-14 Mechanical Gaming Keyboard 104 Key, Brown Switch Full-Size Computer Keyboards for PC Gamer, Black&Grey",
+          "category": "Computers",
+          "score": 0.0611
+        },
+        {
+          "id": "B0BZYJPYMF",
+          "title": "BLOOTH Mechanical Gaming Keyboard RGB Backlit 104 Keys, Blue Switches Customizable Key with 12 LED RGB Color Modes, 7 Levels Brightness and Speed Adjustment, USB Wired for PC Gamers",
+          "category": "Computers",
+          "score": 0.0601
+        },
+        {
+          "id": "B0BXPSJ6D1",
+          "title": "predolo Russian Mechanical Gaming Keyboard 100 Keys, Ergonomics,RGB, Backlit, USB Wired Plug and Play Durable Portable 98% Allocation for PC Laptop, Style A",
+          "category": "Unknown",
+          "score": 0.0595
+        }
+      ],
+      "q23": [
+        {
+          "id": "B0BS3ZPV2S",
+          "title": "Soft Durable Dog Collar with Metal Buckle, Quick Release Puppy Collars Adjustable for Small Medium Large Pet Dogs and Kitten Cat Maya L",
+          "category": "Pet Supplies",
+          "score": 0.0638
+        },
+        {
+          "id": "B0CHX5D2CZ",
+          "title": "Bark Collar for Large Dogs,No bark Collars for Dogs Training,Dog bark Collar for Small Medium Dogs for 5-15lbs,Anti Barking Collar for Dog with 9 Adjustable Sensitivity and Vibration£¬bark Collar",
+          "category": "Pet Supplies",
+          "score": 0.0602
+        },
+        {
+          "id": "B0BZHWDFVD",
+          "title": "Large Dog Collar, Adjustable 16\"-24\" Pet Collar,Bell for Dog Collar,Reflective Nylon Dog Collars,2 D-Ring,Width 1\"",
+          "category": "Pet Supplies",
+          "score": 0.0599
+        },
+        {
+          "id": "B0BWVY4FZF",
+          "title": "LUCKYDC Martingale Collar for Training Dogs. Adjustable Reflective Collars with Buckle-USA Flag- NO Pull-Prevents Slipping Out, for Medium Large XL Dogs. Helps with Strong pullers(L, Blue)",
+          "category": "Pet Supplies",
+          "score": 0.0592
+        },
+        {
+          "id": "B0C2KCKXT6",
+          "title": "Personalized Custom Reflective Dog Collar, Free Engraved Nameplate Name Id Tag, Soft Nylon Full Metal Buckle Pet Cat Collars Adjustable for Xs Small Medium Large Big Dogs Puppy Kitten",
+          "category": "Pet Supplies",
+          "score": 0.0587
+        }
+      ],
+      "q24": [
+        {
+          "id": "B0C42CB6JN",
+          "title": "Small Pet Select - Premium White Paper Pelleted Cat Litter for Litter Pans - Lightweight & Odor Controlling Non-Clumping Paper Pellets Safe for Kittens and Senior Cats - 35L",
+          "category": "Pet Supplies",
+          "score": 0.0656
+        },
+        {
+          "id": "B0BHSSFM76",
+          "title": "Amazon Basics Sifting Scoop-Free Easy-to-Clean Cat Litter Box, Large",
+          "category": "Pet Supplies",
+          "score": 0.0617
+        },
+        {
+          "id": "B0C68TZX3P",
+          "title": "Cat Easy to Clean, No Odor High Sided Kitten Litter Pan Cat Toilet Pets Supplies Open Top Pet Litter Tray for Rabbit Small Pets, Gray",
+          "category": "Pet Supplies",
+          "score": 0.0616
+        },
+        {
+          "id": "B0BYB59FRX",
+          "title": "Durable Thick Cat Litter Mat - Modern Cat Mat With Non-Slip Bottom Stays In Place - Super Soft On Kitty Paws - Easy To Clean Litter Box Mat - Waterproof Cat Litter Trapping Mat Protect Floors.",
+          "category": "Tools & Home Improvement",
+          "score": 0.0614
+        },
+        {
+          "id": "B0C53DMJYH",
+          "title": "Zhehao 3 Set Stainless Steel Cat Litter Box with 3 Pcs Wood Handle Cat Litter Scoop, 15.8 x 11.8 x 3.9 Inch Metal Litter Box Rustproof Non Stick Cat Pan with Deep Cat Scooper for Bunny Kitten Kitty",
+          "category": "Pet Supplies",
+          "score": 0.0575
+        }
+      ],
+      "q25": [
+        {
+          "id": "B0BT72GK41",
+          "title": "Collapsible Octopus Camera Mini Tripod, Flexible Cell Phone Holder Stand Selfie Stick Camera Stand Smart Phone Stand",
+          "category": "Camera & Photo",
+          "score": 0.0653
+        },
+        {
+          "id": "B0BX71PBK1",
+          "title": "WILDGAMEPLUS Portable Shooting Tripod Rest Rapid Rifle Shooting Stand, Adjustable Compact Lightweight Aluminum Cast Construction Bench Stick with 360 Degree Rotate V Yoke Holder",
+          "category": "Sports & Outdoors",
+          "score": 0.0643
+        },
+        {
+          "id": "B0CB6HQB5W",
+          "title": "Phone Tripod, Cell Phone Holder for iPhone and Android Phones, with Small Portable Tripod with Wireless Remote Control and Clip for Video Shooting, Vlogging, Selfie",
+          "category": "Camera & Photo",
+          "score": 0.061
+        },
+        {
+          "id": "B0BXJMS84N",
+          "title": "Selfie Stick Tripod with Remote and 2 Fill Light - Tripod for iPhone - Portable 49 inch iPhone Tripod Stand - New Phone Tripod Compatible with iPhone & Smartphones (Black)",
+          "category": "Camera & Photo",
+          "score": 0.0585
+        },
+        {
+          "id": "B0BYMCTX23",
+          "title": "LONJADE Selfie Stick Tripod Quadrapod-55 inch Extendable Selfie Stick 4 in 1 Phone Tripod Stand with Remote Handheld Travel Holder Compatible with Gopro iPhone Samsung Cell Phone Video Recording",
+          "category": "Camera & Photo",
+          "score": 0.0578
+        }
+      ]
+    },
+    "fused_w5": {
+      "q01": [
+        {
+          "id": "B0BQHDQYHY",
+          "title": "Wireless Earbuds,IPX5 Waterproof Bluetooth Earbuds Stereo Earphone, Bluetooth 5.0 in-Ear Earbuds with Wireless Bluetooth Headphone 30H Playtime, for iPhone/Android",
+          "category": "Cell Phones & Accessories",
+          "score": 0.094
+        },
+        {
+          "id": "B0C98JG6RB",
+          "title": "Wireless Earbuds,Bluetooth Headphones IPX7 Waterproof Wireless Bluetooth Earphone with Microphone Charging Case, Pop-ups Auto Pairing Hi-Fi Stereo Sound Headset for iOS/Android",
+          "category": "Cell Phones & Accessories",
+          "score": 0.0939
+        },
+        {
+          "id": "B0C1YBF85R",
+          "title": "Waterproof Bluetooth 5.2 True Wireless Headset,Touch Control,30H Cycle Playback time TWS t,with Charging Box and Microphone,in-Ear Stereo Headset b",
+          "category": "Electronics",
+          "score": 0.0925
+        },
+        {
+          "id": "B0BSC19TPD",
+          "title": "Waterproof Bluetooth 5.2 True Wireless Earbuds, Touch Control, in-Ear Stereo Earphones Headset,30H Cyclic Playtime TWS Headphones with Charging Case and mic B",
+          "category": "All Electronics",
+          "score": 0.0903
+        },
+        {
+          "id": "B0C8J779X9",
+          "title": "Wireless Earbuds Bluetooth Headphones in-Ear Stereo Bluetooth 5.0 Headsets Earphones Fit for Sports with Built in Microphone and Charging Case IPX7 Waterproof for iOS/Android Smart Devices-White",
+          "category": "Electronics",
+          "score": 0.0896
+        }
+      ],
+      "q02": [
+        {
+          "id": "B0BWFT9WRS",
+          "title": "Phone Case Jack TPU Hughes Shockproof Cover Accessories Protect Compatible with iPhone 14 Pro Max 13 12 11 X Xs Xr 8 7 6 6s Mini Plus Galaxy S9 S10 S20 S21 Ultra Plus Note Transparent",
+          "category": "Cell Phones & Accessories",
+          "score": 0.0963
+        },
+        {
+          "id": "B0BS47N6HB",
+          "title": "Phone Case Soviet Accessories Union Shockproof Passport Cover Compatible with iPhone 14 13 Pro Max 12 11 X Xs Xr 8 7 6 6s Mini Plus Galaxy Note S9 S10 S20 S21 Ultra Plus Transparent",
+          "category": "Cell Phones & Accessories",
+          "score": 0.0806
+        },
+        {
+          "id": "B0C7GMRZGR",
+          "title": "Magnetic Phone Case Shockproof Cover Cases Magnet Ring Wierless Charging Compatible with iPhone 13 Pro Soft TPU Protective Bumper Red",
+          "category": "Cell Phones & Accessories",
+          "score": 0.0794
+        },
+        {
+          "id": "B0BXCY66JQ",
+          "title": "Case Phone Compatible with Samsung iPhone Scott Se 2020 Pilgrims X Universe 14 Vs 13 The Xr Universe 7 8 11 12 Pro Max Accessories Scratch Waterproof",
+          "category": "Cell Phones & Accessories",
+          "score": 0.0784
+        },
+        {
+          "id": "B0BSFT8NBC",
+          "title": "Phone Case All TPU Might Cover My Protect Academia Shockproof The Accessories Hero Compatible with iPhone 14 Pro Max 13 12 11 X Xs Xr 8 7 6 6s Mini Plus Galaxy Note S9 S10 S20 S21 Ultra Transparent",
+          "category": "Cell Phones & Accessories",
+          "score": 0.0781
+        }
+      ],
+      "q03": [
+        {
+          "id": "B0BTYR4SFX",
+          "title": "Apple USB C to USB C Cable 6ft,2 Pack Long Type C Charger Fast Charging Cord for Apple MacBook Pro 2020/2019/2018/2017/2016,iPad Air 4/5,iPad Mini 6,iPad Pro 12.9/11",
+          "category": "Industrial & Scientific",
+          "score": 0.0981
+        },
+        {
+          "id": "B0C4PNWVN1",
+          "title": "[1Pack, 3.2ft] USB Type C Cable 5A Fast Charging, USB C to USB A Charger Cord Support QC Compatible Laptop, Tablet, Smartphone Other USB-C Device ect.White",
+          "category": "Electronics",
+          "score": 0.097
+        },
+        {
+          "id": "B0CDLV38KL",
+          "title": "USB C to USB C Cable 3ft, 2Pack 60W C to C Fast Charging Cable Type-C to TypeC Power Cord for Apple MacBook Air/Pro, Samsung S23/22/21, iPad Pro 12.9/11/Air/Mini, Pixel, LG All PD USB C Charger",
+          "category": "Industrial & Scientific",
+          "score": 0.0939
+        },
+        {
+          "id": "B0C7BHNQVR",
+          "title": "(3-Pack) 3.3 ft USB C Cable 20w Fast Charging USB C-to-C Cable Compatible with All USB-C Devices",
+          "category": "Electronics",
+          "score": 0.0931
+        },
+        {
+          "id": "B0CJC4HK5G",
+          "title": "USB C to USB C Cable 2pack 6FT 60W [Apple MFi Certified], Type C Long Apple Fast Charge Cord,Fast Charger Wire Compatible with iPhone 15/15Pro/15 Plus/15 Pro Max, iPad Pro 12.9 Air Mini MacBook Air",
+          "category": "Electronics",
+          "score": 0.0893
+        }
+      ],
+      "q04": [
+        {
+          "id": "B0C3P8KLM7",
+          "title": "adidas Men's Galaxy 5 Lightweight Running Shoe",
+          "category": "AMAZON FASHION",
+          "score": 0.0976
+        },
+        {
+          "id": "B0BVGC5T6D",
+          "title": "WEITE Mens Slip On Walking Shoes Fashion Sneakers for Men - Running Shoes for Men Lightweight Breathable Non Slip Mesh Gym Tennis Comfortable Arch Support Athletic Sneakers",
+          "category": "AMAZON FASHION",
+          "score": 0.0958
+        },
+        {
+          "id": "B0C3Q13B59",
+          "title": "adidas Men's Coreracer Lightweight Running Shoe",
+          "category": "AMAZON FASHION",
+          "score": 0.0949
+        },
+        {
+          "id": "B0C6SQVD15",
+          "title": "Men's Running Shoes Fashion Walking Lightweight Wear-Resistant Sneakers Tennis Casual Workout Cross Trainers",
+          "category": "AMAZON FASHION",
+          "score": 0.0943
+        },
+        {
+          "id": "B0C6Q7WH2R",
+          "title": "Mens Walking Shoes Lightweight Breathe Mesh Running Shoes Slip On Fashion Tennis Sneakers Comfort Gym Workout Zapatos de Hombre",
+          "category": "AMAZON FASHION",
+          "score": 0.0928
+        }
+      ],
+      "q05": [
+        {
+          "id": "B0BT7YVMQJ",
+          "title": "Vintage Leather Women's Crossbody bags Medium Size Sling Women Purse, Shoulder bags & Handbags",
+          "category": "AMAZON FASHION",
+          "score": 0.0951
+        },
+        {
+          "id": "B0C1X8N3MZ",
+          "title": "Lederbuck Olga Large Soft Real Leather Womens Crossbody Handbags and Purses-Triple Zip Premium Sling Crossover Shoulder Bag",
+          "category": "Clothing, Shoes & Jewelry",
+          "score": 0.0933
+        },
+        {
+          "id": "B0BP6C5LW9",
+          "title": "Pascado Vintage leather crossbody mini wallet clutch purse shoulder handbag for women brown 7x9",
+          "category": "Handmade",
+          "score": 0.0878
+        },
+        {
+          "id": "B0BYHL67LC",
+          "title": "Genuine Leather Top Handle Satchel Purse for Women Vintage Handmade Handbag Retro Designer Crossbody Bags",
+          "category": "AMAZON FASHION",
+          "score": 0.0873
+        },
+        {
+          "id": "B0BTFR4MWB",
+          "title": "Women Genuine Leather Shoulder Bag Floral-Embossed Crossbody Bag Handbag Purse for Women",
+          "category": "AMAZON FASHION",
+          "score": 0.087
+        }
+      ],
+      "q06": [
+        {
+          "id": "B0C49DCBWS",
+          "title": "ISHAANAV Marilyn Music and Manson Men's Comfortable Short Sleeve Shirt Round Neck Cotton Fashion T-Shirt Black",
+          "category": "AMAZON FASHION",
+          "score": 0.082
+        },
+        {
+          "id": "B0C1YJCS2L",
+          "title": "Mens Vintage T-Shirt Fashion Neck Top Soft Cotton Round Neck Short Sleeve Tshirts Black",
+          "category": "AMAZON FASHION",
+          "score": 0.0806
+        },
+        {
+          "id": "B0BV9B3BLV",
+          "title": "Public Music and Enemy Fashionable and Comfortable Men's Short-Sleeved Shirts Round Neck T-Shirts Black",
+          "category": "Clothing, Shoes & Jewelry",
+          "score": 0.0794
+        },
+        {
+          "id": "B0BXXVNM7F",
+          "title": "CHRISEvans Shirt Men's T-Shirt Classic Short Sleeve Top Fashion Tee Black",
+          "category": "Clothing, Shoes & Jewelry",
+          "score": 0.0781
+        },
+        {
+          "id": "B0BXZ2F996",
+          "title": "TRIUMPH Cartmel Black T-Shirt",
+          "category": "Automotive",
+          "score": 0.0774
+        }
+      ],
+      "q07": [
+        {
+          "id": "B0BW6K3PVF",
+          "title": "Comfort and Softness Memory Foam Pillow Sleep Mask, Smooth Pillow That Feel Like Cat Belly, Ideal for Side, Back, Stomach Sleepers, Foam Pillow, Sleeping Pillow, Comfy Pillow for Sleeping",
+          "category": "Amazon Home",
+          "score": 0.0967
+        },
+        {
+          "id": "B0BVZ3GCJV",
+          "title": "MANSVCIH Memory Foam Pillows King Size Set of 2,Adjustable Cooling Bed Pillows for Sleeping Good for Side and Back Sleeper with Washable Removable Bamboo Cover",
+          "category": "Amazon Home",
+          "score": 0.0942
+        },
+        {
+          "id": "B0BV62T7K3",
+          "title": "COYMOS Bean Bag Filler 10lbs Pillow Stuffing for Couch Pillows, Soft Shredded Memory Foam Polyfill Stuffing for Stuffed Animals, Bag Chair, Dog Bed, Yellow",
+          "category": "Home & Kitchen",
+          "score": 0.0933
+        },
+        {
+          "id": "B0C998R78Z",
+          "title": "Memory Foam Pillows Neck Pillow for Sleeping Ergonomic Pillow Contour Cervical Pillow Neck Support Bed Pillow for Side Back Sleeper, Orthopedic Pillow for Neck Pain Relief",
+          "category": "Home & Kitchen",
+          "score": 0.0911
+        },
+        {
+          "id": "B0C1HMC9P3",
+          "title": "Simply Home Bamboo Comfort Neck Pillow with Shredded Memory Foam - Hypoallergenic, Cooling Technology for Restful Sleep and Ergonomic Support - Small Camp Pillow in Carrying Case",
+          "category": "Amazon Home",
+          "score": 0.0903
+        }
+      ],
+      "q08": [
+        {
+          "id": "B09TPM7VCD",
+          "title": "PIGUDA Anime Blackout Curtain for Bedroom Living Room Dorm Darkening Home Curtain Grommet Set of 2 Panels 63x72in",
+          "category": "Amazon Home",
+          "score": 0.0935
+        },
+        {
+          "id": "B0BVMPKGWR",
+          "title": "Portable Blackout Shades,Blackout Blind Curtain,118\" x 57\" Travel Window Blackout Curtains, Blackout Window Cover,Room Darkening Curtains, Blackout Blinds Window Curtains for Bedroom Nursery Dorm Room",
+          "category": "Amazon Home",
+          "score": 0.0909
+        },
+        {
+          "id": "B0BW8RNF7G",
+          "title": "Blackout Curtains,100% Window Blinds Black Out Curtains,Portable Blackout Blinds Window Shades,118\" x 57\" Blinds for Window,Blackout Shades for Indoor Windows Home Bedroom,Blackout Window Cover",
+          "category": "Amazon Home",
+          "score": 0.09
+        },
+        {
+          "id": "B0BY4PC5HL",
+          "title": "Bohemian Sun Moon Curtains, Vintage Mandala Celestial Orange Sun Moon Chic Mysterious Universe Starry Sky, Bedroom Living Room Blackout Decorative Curtains, 2 Panel Set, 42x45 in.",
+          "category": "Amazon Home",
+          "score": 0.0836
+        },
+        {
+          "id": "B09NTSYBDY",
+          "title": "PIGUDA Anime Cool Curtain Home Decor Art Blackout for Bedroom Living Room Study Dorm Darkening Set of 2 Panels 55x63in",
+          "category": "Amazon Home",
+          "score": 0.082
+        }
+      ],
+      "q09": [
+        {
+          "id": "B0BRKJ6WZF",
+          "title": "GothaBach Mini Cast Iron Skillet, Pre Seasoned Small Cast Iron Skillet for Baked Cookie, Brownie, Egg Cakes (6'')",
+          "category": "Amazon Home",
+          "score": 0.082
+        },
+        {
+          "id": "B071JW7NJW",
+          "title": "Nest Homeware Cast Iron 9 Inch Skillet",
+          "category": "Amazon Home",
+          "score": 0.0806
+        },
+        {
+          "id": "B0BGZ63HDY",
+          "title": "DASH Zakarian 9.5\" Nonstick Cast Iron Skillet with Pour Spouts for Searing, Baking, Grilling, Roasting and More - Black",
+          "category": "Amazon Home",
+          "score": 0.0794
+        },
+        {
+          "id": "B0C5XNZRDY",
+          "title": "JOOBY Cast Iron Cleaner for Cast Iron Skillet",
+          "category": "Amazon Home",
+          "score": 0.0781
+        },
+        {
+          "id": "B0BZ17WSMY",
+          "title": "Mesquite Wood Cast Iron Spatula",
+          "category": "Home & Kitchen",
+          "score": 0.0769
+        }
+      ],
+      "q10": [
+        {
+          "id": "B0BVW874R2",
+          "title": "Glass Coffee Server for Drip Coffee Maker, Standard Glass Coffee Carafe, Coffee Pot with Lid, Clear, 03 800ml(27oz)",
+          "category": "Amazon Home",
+          "score": 0.0971
+        },
+        {
+          "id": "B0BWSMV57F",
+          "title": "Cuisinart Coffee Maker Barista System, Coffee Center 4-In-1 Coffee Machine, Single-Serve Coffee, Espresso & Nespresso Capsule Compatible, 12-Cup Carafe, Black, SS-4N1",
+          "category": "Home & Kitchen",
+          "score": 0.0958
+        },
+        {
+          "id": "B0BTYGY5Z8",
+          "title": "Rise by Dash Coffee Maker Blue Sky",
+          "category": "Amazon Home",
+          "score": 0.0938
+        },
+        {
+          "id": "B08VWDXVNN",
+          "title": "ChefWave Espresso Machine for Nespresso Compatible Capsule - Drip Tray & Cup Support Set",
+          "category": "Amazon Home",
+          "score": 0.0919
+        },
+        {
+          "id": "B0BTXRTJ8L",
+          "title": "WOODRIVER Cold Brew Mason Jar iced Coffee Maker, Durable Glass, Heavy Duty Stainless Steel Filter, Flip Cap Lid - 64 oz With Handle",
+          "category": "Amazon Home",
+          "score": 0.0919
+        }
+      ],
+      "q11": [
+        {
+          "id": "B0BMWQNMPS",
+          "title": "11 PCS Mini Screwdriver Set, Small Screwdriver Set of Flathead and Phillips Screwdrivers, Screwdriver Set for Glasses, Watch, Phone, Toys, Computer Repair",
+          "category": "Tools & Home Improvement",
+          "score": 0.09
+        },
+        {
+          "id": "B0BVJ3ZTQT",
+          "title": "Electric Screwdriver Precision Screwdriver Set Cordless Screwdriver Mini Screwdriver Set Repair Tool Kit for Phones Watch Camera Laptops,black29",
+          "category": "Tools & Home Improvement",
+          "score": 0.0876
+        },
+        {
+          "id": "B0BWFJ1FT7",
+          "title": "Screwdriver Set 10 Piece, Cushion Grip, 5 Phillips and 5 Flat Head Tips",
+          "category": "Tools & Home Improvement",
+          "score": 0.082
+        },
+        {
+          "id": "B0BRQZLTH7",
+          "title": "ABN Magnetic Screwdriver Set with Case - 43pc Slotted Hex Flat Torx Phillips Precision Screw Driver and Drill Bit Set",
+          "category": "Tools & Home Improvement",
+          "score": 0.0806
+        },
+        {
+          "id": "B0CB45G7VZ",
+          "title": "8 Pieces Professional Watch Screwdriver Set Micro Precision Screwdriver Set 0.6-1.6 mm Watch Repair Screwdriver Set with 2 Tweezers for Watch Eyeglasses Repair Jewelry Work Electronics Repair",
+          "category": "Tools & Home Improvement",
+          "score": 0.0794
+        }
+      ],
+      "q12": [
+        {
+          "id": "B0C1NR47KZ",
+          "title": "Electric Chainsaw Cordless, 20V Battery Powered Chainsaw, Wesoky 10'' Battery Chainsaw 4000mAh Fast Charger Chain Saw Kit, Brushless Chain Saws for Wood Cutting Tree Trimming, Medium Chainsaw",
+          "category": "Tools & Home Improvement",
+          "score": 0.0958
+        },
+        {
+          "id": "B0BVJ3ZTQT",
+          "title": "Electric Screwdriver Precision Screwdriver Set Cordless Screwdriver Mini Screwdriver Set Repair Tool Kit for Phones Watch Camera Laptops,black29",
+          "category": "Tools & Home Improvement",
+          "score": 0.0954
+        },
+        {
+          "id": "B09138XCD1",
+          "title": "Mini Chainsaw 6-Inch Cordless Battery Powered Chain Saw with 2PCS 2.0Ah Rechargeable Battery Operated, 21V Powerful Brushless Electric Chainsaw, Handheld Small Chainsaw for Wood Cutting Tree Trimming",
+          "category": "Tools & Home Improvement",
+          "score": 0.0916
+        },
+        {
+          "id": "B0BVJ3NBWN",
+          "title": "Cordless Screwdriver 3.6V Power Screwdriver Rotating Electric Screwdriver 1/4 inch with Charger LED Light Rotating Handle Magnetic Bits,black22",
+          "category": "Tools & Home Improvement",
+          "score": 0.0906
+        },
+        {
+          "id": "B0BW95VZC5",
+          "title": "【2-in-1】 Cordless Pole Saw and Mini Chainsaw,21v 3.0ah Li-ion Battery, Power Pole 6 Guides, Cordless Power Pole Saw,Adjustable Length Pole Saw 50-225cm Electric Pole saws for Tree Trimming",
+          "category": "Tools & Home Improvement",
+          "score": 0.0904
+        }
+      ],
+      "q13": [
+        {
+          "id": "B0BXQ6W4JP",
+          "title": "USB C Car Charger 45W / 45W Super Mini Toocki All Metal Fast USB Car Charger Adapter PD&QC 3.0 Dual Port Compatible with iPhone 14 Pro Max 13 12 11 X XR XS Samsung Galaxy S23/22/21",
+          "category": "All Electronics",
+          "score": 0.0978
+        },
+        {
+          "id": "B0BW3RMSCW",
+          "title": "2Pack USB C Fast Car Charger, Dual Port Type C Fast Charger Adapter USB Car Charger Plug Fast Charging for iPhone 14/14Pro/13/13 Pro Max/12 Mini/11 Pro/X/XR/iPad Pro",
+          "category": "All Electronics",
+          "score": 0.0963
+        },
+        {
+          "id": "B0C4L4R1Z1",
+          "title": "[All Metal] Dual QC3.0 Car Charger with 3FT USB Type C Cable and Cable Clip [Dual QC3.0 Port] 36W/6A Fast Car Charger Adapter Mini Cigarette Lighter USB Charger Quick Charge 3.0",
+          "category": "All Electronics",
+          "score": 0.0955
+        },
+        {
+          "id": "B0C2GR2PKK",
+          "title": "iPhone Fast Car Charger,2Pack Dual Port USB C Car Charger[Apple MFI Certified]Power Delivery Apple Car Adapter with 2Pack Lightning Cable Type C Rapid Car Charging for iPhone 14/13/12/11/Xs/Xr/SE/iPad",
+          "category": "Industrial & Scientific",
+          "score": 0.0933
+        },
+        {
+          "id": "B0BVGT9GZ6",
+          "title": "12/24V Socket Dual USB Type C PD 3.0 (60W) + USB A (36W) Fast Charger for Car, Boat, Marine & RVs (2-Pack)",
+          "category": "All Electronics",
+          "score": 0.0916
+        }
+      ],
+      "q14": [
+        {
+          "id": "B0BR5TTHB6",
+          "title": "Windshield Wiper Replacement for, Blade Wiper 20\" + 20\" Front Window Car Wiper Blade (set of 2) - Series: YKK556GA",
+          "category": "Automotive",
+          "score": 0.082
+        },
+        {
+          "id": "B0BRXL258H",
+          "title": "Car Windshield Wiper Blade Strips, DIY Adjustable Car Windscreen Wiper Rubber Refills, 32\" Frameless Window Boneless Insert Replacement Wiper, Auto Accessories for Cars Buses Vans SUV (Pack of 8)",
+          "category": "Automotive",
+          "score": 0.0806
+        },
+        {
+          "id": "B0C4TZG7V5",
+          "title": "Anime Windshield Sunshade Umbrella - Car Front Window Visor Blocks UV Rays - Folding Heat Protection Auto Sun Shield Cover - Windscreen Shade Universal for Most Sedans, Truck, SUV (53\" x31”)",
+          "category": "Automotive",
+          "score": 0.0805
+        },
+        {
+          "id": "B0C33DPYLH",
+          "title": "zipelo Car Windshield Wiper Arm Puller, Car Windscreen Wiper Arm Removal Tool, Lightweight Arm Bearing Remover Puller Repair Tool Kit, Universal Automotive Accessories for SUV Truck Van",
+          "category": "Automotive",
+          "score": 0.0794
+        },
+        {
+          "id": "B08TQNJL19",
+          "title": "Windshield wiper baldes, 28\" + 16\" Windshield Wiper for Front Window Series: MM6678H (set of 2)",
+          "category": "Automotive",
+          "score": 0.0781
+        }
+      ],
+      "q15": [
+        {
+          "id": "B0BXK7SM9G",
+          "title": "Yoga Mat - Premium 15 Mm Extra Thick Non Slip Exercise & Fitness Mat,Anti-Skid Sports Fitness Mat for All Types of Yoga, Pilates & Floor Workouts (23.6 x 9.8 x 0.6inch Thick)",
+          "category": "Sports & Outdoors",
+          "score": 0.0974
+        },
+        {
+          "id": "B0B4NTFH5V",
+          "title": "ODODOS Yoga Mat for Women Men, Eco-Friendly Non Slip Exercise & Fitness Mat for Yoga Pilates Floor Workouts (5mm/ 6mm/ 10mm Thick)",
+          "category": "Sports & Outdoors",
+          "score": 0.0955
+        },
+        {
+          "id": "B0C6PWXM2V",
+          "title": "Yoga Mat, Premium 1/4 inch Imprint Non Slip Extra Thick Fitness & Exercise Mat with Carrying Strap, Workout Mat for All Types of Yoga, Pilates and Floor Exercises",
+          "category": "Sports & Outdoors",
+          "score": 0.0942
+        },
+        {
+          "id": "B0BZG3MW6Y",
+          "title": "Jovely TPE Non-Slip Yoga Mat, 72\"x24\", 1/4\"(6mm) Thick, Extra Thick Eco Friendly Exercise Mat with Carrying Strap, Perfect for Yoga, Pilates, and Floor Workouts, Anti-Tear Material for Women and Men",
+          "category": "Sports & Outdoors",
+          "score": 0.0931
+        },
+        {
+          "id": "B0BY29WG2W",
+          "title": "Yoga Mat, Yoga Exercise Mats for Home Workout, Women & Men Gym Mat, 23.6 Inch All Purpose Extra Thick High Density Anti-tear Rubber Travel Sport Yoga Mats Non Slip, with Carrying Strap #Today Pink",
+          "category": "Sports & Outdoors",
+          "score": 0.0896
+        }
+      ],
+      "q16": [
+        {
+          "id": "B09PR4ZNRF",
+          "title": "Adjustable Dumbbell Set, 25lb/55lb Free Weight Set Pair Fast Adjust Dumbbell Weight for Exercises,Dumbbells for Men and Women Home Gym Workout Equipment",
+          "category": "Sports & Outdoors",
+          "score": 0.0984
+        },
+        {
+          "id": "B0CBN2NRZ1",
+          "title": "Rendpas Adjustable Dumbbell 25lb Weights,1-Sec Adjustable Dumbbell Single, 5 in 1 Free Weights Dumbbell with Anti-Slip Texture Handle, Exercise & Fitness Dumbbells, Weights Set For Home Gym For Men and Women",
+          "category": "Sports & Outdoors",
+          "score": 0.0952
+        },
+        {
+          "id": "B0C74454GJ",
+          "title": "Kweetle Upgrade 330LBS Dumbbell Stand Adjustable Dumbbell Rack (Sliver)",
+          "category": "Sports & Outdoors",
+          "score": 0.0947
+        },
+        {
+          "id": "B0C7QS1YWZ",
+          "title": "FLYBIRD Adjustable Dumbbell,25LB/25LBx2 Dumbbell for Men and Women with Anti-Slip Metal Handle,Fast Adjust Weight by Turning Handle, Black Dumbbell with Tray Suitable for Full Body Workout Fitness",
+          "category": "Sports & Outdoors",
+          "score": 0.0928
+        },
+        {
+          "id": "B0BX5BLJZH",
+          "title": "Ankle Weights Weight Lifting Adjustable Weights Dumbbell Ankle Strap for Exercise Lower Body Strength Training Fitness, Strengthen Glutes, Hamstrings, Quads, and Hip Flexors",
+          "category": "Sports & Outdoors",
+          "score": 0.0923
+        }
+      ],
+      "q17": [
+        {
+          "id": "B0BTMXQDH1",
+          "title": "Revitalize Wellness Liposomal Vitamin C - 1000mg Buffered Liquid Vitamin C Supplement - Immune + Antioxidant Support - Liposomes for Superior Absorption",
+          "category": "Health & Personal Care",
+          "score": 0.0974
+        },
+        {
+          "id": "B0BZWWBFJF",
+          "title": "Nutri Vitamin C Chewable Gummies - (2 Pack) Adults and Kids - Daily Supplement for Immune Function & Overall Children's and Adult's Health | Non-GMO Vegan with 250 mg of Vitamin C Per Yummy Gummy",
+          "category": "Health & Personal Care",
+          "score": 0.0938
+        },
+        {
+          "id": "B0BV8BM7LX",
+          "title": "NOW Supplements, Liposomal Vitamin C, Immune & Collagen Support*, 120 Veg Capsules",
+          "category": "Health & Personal Care",
+          "score": 0.0927
+        },
+        {
+          "id": "B0BW6XLRKH",
+          "title": "Improve Your Skin Elasticity and Joint Health with Spring Valley Collagen Type 1 & 3 + Vitamin C Dietary Supplement - 1,000mg Tablets, 90 Count. Includes Luall Sticker (1)",
+          "category": "Health & Personal Care",
+          "score": 0.0925
+        },
+        {
+          "id": "B0BT1D51XP",
+          "title": "Research Labs Liposomal Vitamin C Supplement w/Enhanced Absorption LipoQuil-C™ | 120 Capsules Immune Support Collagen Booster | High Dose Fat Soluble Vita C 1000mg Buffered | Non GMO, Vegan Pills",
+          "category": "Health & Household",
+          "score": 0.0918
+        }
+      ],
+      "q18": [
+        {
+          "id": "B0BWS81QNP",
+          "title": "NBGRLVS Sonic Electric Toothbrush for Adults, Electronic Toothbrush with 5 Modes, 4 Brush Heads, Travel Rechargeable Power Toothbrush for 30 Days, Ultrasonic Battery Toothbrush",
+          "category": "Health & Personal Care",
+          "score": 0.0984
+        },
+        {
+          "id": "B0CDGV3N9Z",
+          "title": "2 Pack Electric Toothbrush for Adults, with 8 Brush Heads, 6 Modes 42000vpm IPX7 Waterproof, Travel Electric Toothbrush Black+Pink",
+          "category": "Health & Personal Care",
+          "score": 0.0963
+        },
+        {
+          "id": "B0BT9M79G5",
+          "title": "YteaTh Electric Toothbrush for Adults and Women - Rechargeable Power Electronic Toothbrushes with 5 Modes and Timer, 6 Brush Heads, Pink",
+          "category": "Health & Personal Care",
+          "score": 0.0955
+        },
+        {
+          "id": "B0BT9MQLHK",
+          "title": "YteaTh Sonic Electric Toothbrush for Adults and Women - Rechargeable Electronic Toothbrushes with 5 Modes and Timer, 6 Brush Heads, White",
+          "category": "Health & Household",
+          "score": 0.0926
+        },
+        {
+          "id": "B0C3G4YCJB",
+          "title": "SSZMDLB Electric Toothbrush with 8 Brush Heads 6 Modes Cleaning Whitening IPX7 Waterproof 2 Minutes Smart Timer 30 Seconds Pause Longer Life Faster Charging　 (Black)",
+          "category": "Health & Household",
+          "score": 0.0903
+        }
+      ],
+      "q19": [
+        {
+          "id": "B0BT75XGW5",
+          "title": "Pentel EnerGel RTX Retractable Liquid Gel Pen, (1.0mm) Metal Tip, Bold Line, Assorted Ink Colors (Red, Blue, Green, Violet)",
+          "category": "Office Products",
+          "score": 0.0978
+        },
+        {
+          "id": "B0BV6CBS48",
+          "title": "Erasable Pen 1PC Gel Pens 0.5mm Blue Gel Pens Cartoons Press Pen Cute Stationary Office Accessories School Office Supplies(red Random 1pc)",
+          "category": "Office Products",
+          "score": 0.0955
+        },
+        {
+          "id": "B0BXW6TL4B",
+          "title": "Cobee® Erasable Gel Pens, 12 Pieces 0.5mm Retractable Eraser Rollerball Pen Blue Ink Erasable Pen Mistakes Disappear Fine Point Pen Writing Planner Drawing School Supplies(Blue)",
+          "category": "Office Products",
+          "score": 0.0943
+        },
+        {
+          "id": "B0C8B5NPMX",
+          "title": "Cra-Z-Art Stealth Retractable 4ct Gel Pen Plastic Barrel Black, Blue and Red Ink",
+          "category": "Office Products",
+          "score": 0.091
+        },
+        {
+          "id": "B0C34D233W",
+          "title": "Cooapen Cute Pens Galaxy Colored Gel Ink Pens Set for Bullet Journaling Writing Planner Note Taking, 0.5 mm Fine Point Colorful Gel Ink Pens, 10 Count",
+          "category": "Office Products",
+          "score": 0.0908
+        }
+      ],
+      "q20": [
+        {
+          "id": "B0C344TRVW",
+          "title": "ERTUPE Women's 2 Piece Casual Blazers Open Front Long Sleeve Work Office Jackets and Pencil Pants Business Office Suit Set",
+          "category": "Amazon Home",
+          "score": 0.082
+        },
+        {
+          "id": "B0BRKY2FMW",
+          "title": "Men's Slim Fit Dress Pants,Chinos Plaid Striped Printed Stretch Flat-Front Skinny Business Pencil Long Pants",
+          "category": "Clothing, Shoes & Jewelry",
+          "score": 0.0806
+        },
+        {
+          "id": "B0C3C7BJXH",
+          "title": "MINTLIMIT Womens Long Sleeve Notched Lapel Blazers with Pockets Button Front Work Office Blazer Jacket Suit",
+          "category": "AMAZON FASHION",
+          "score": 0.0794
+        },
+        {
+          "id": "B0BWDXGTTT",
+          "title": "MNBCCXC Womens Pants Printed Loose Wide Leg Elastic High Waist Straight Leg with Business Casual Pants for Women with",
+          "category": "Clothing, Shoes & Jewelry",
+          "score": 0.0781
+        },
+        {
+          "id": "B0BWNYP1DH",
+          "title": "PIER 17 Button Down Shirts for Women, Tailored Long Sleeve Casual Business Professional Office Work Collared Dress Blouse",
+          "category": "AMAZON FASHION",
+          "score": 0.0769
+        }
+      ],
+      "q21": [
+        {
+          "id": "B0BX75JT95",
+          "title": "Wired Gaming Mouse , Optical USB Mice for Laptop/Desktop, 800 to 1600 3 Adjustable DPI and RGB Light, Ergonomic with 4 Programmable Buttons for Computer Windows 7/8/10/XP Vista Linux Chromebook PC",
+          "category": "All Electronics",
+          "score": 0.0945
+        },
+        {
+          "id": "B0BZTYYRT3",
+          "title": "KISSU Wireless Mouse, Powerful 1725 DPI Optical Sensor, Scroll Wheel",
+          "category": "All Electronics",
+          "score": 0.0937
+        },
+        {
+          "id": "B09YYZ3GG6",
+          "title": "Wireless Mouse, 2.4Ghz Wireless Mouse Computer Mouse 1200DPI,6 Buttons with Nano Receiver for Laptop,PC,Chromebook,Computer,Notebook,Office (Grey)",
+          "category": "All Electronics",
+          "score": 0.0907
+        },
+        {
+          "id": "B0BZXQL9ZM",
+          "title": "Gamer Fanatic Q15 RGB Wireless Gaming Mouse Ergonomic LED Black Multi-Coloured Lightweight 6 Buttons Great Online Gaming Experience, Long Battery Life, Nicely Designed",
+          "category": "Video Games",
+          "score": 0.0878
+        },
+        {
+          "id": "B0BV6RT1PK",
+          "title": "soputry Wireless Ergonomics Metal Mouse, Rechargeable Wireless Mouse with 2.4GHz Nano USB Receiver, Waterproof Silent Mouse Aluminum Alloy Integrated Base, Ergonomic Optical Portable Mouse (Grey)",
+          "category": "All Electronics",
+          "score": 0.0858
+        }
+      ],
+      "q22": [
+        {
+          "id": "B0C27DZY6H",
+          "title": "RGB Mechanical Gaming Keyboard, 104 Keys USB Wired Keyboard with 20 True Backlit Modes, Clicky Blue Switches, 100% Anti-Ghosting - Waterproof Mechanical Keyboard for Windows PC/MAC Games",
+          "category": "Video Games",
+          "score": 0.0981
+        },
+        {
+          "id": "B0BW9DVFJ7",
+          "title": "GOWENIC 6 Keys Programmable Keypad, One Handed Macro Mechanical Keyboard with Knob OSU Gaming Keyboard for Office, Gaming, Industrial Control, Laboratory",
+          "category": "Computers",
+          "score": 0.0945
+        },
+        {
+          "id": "B0BZYJPYMF",
+          "title": "BLOOTH Mechanical Gaming Keyboard RGB Backlit 104 Keys, Blue Switches Customizable Key with 12 LED RGB Color Modes, 7 Levels Brightness and Speed Adjustment, USB Wired for PC Gamers",
+          "category": "Computers",
+          "score": 0.0919
+        },
+        {
+          "id": "B0BXPSJ6D1",
+          "title": "predolo Russian Mechanical Gaming Keyboard 100 Keys, Ergonomics,RGB, Backlit, USB Wired Plug and Play Durable Portable 98% Allocation for PC Laptop, Style A",
+          "category": "Unknown",
+          "score": 0.0918
+        },
+        {
+          "id": "B0BVFP7XKT",
+          "title": "E-YOOSO Z-14 Mechanical Gaming Keyboard 104 Key, Brown Switch Full-Size Computer Keyboards for PC Gamer, Black&Grey",
+          "category": "Computers",
+          "score": 0.0914
+        }
+      ],
+      "q23": [
+        {
+          "id": "B0BS3ZPV2S",
+          "title": "Soft Durable Dog Collar with Metal Buckle, Quick Release Puppy Collars Adjustable for Small Medium Large Pet Dogs and Kitten Cat Maya L",
+          "category": "Pet Supplies",
+          "score": 0.096
+        },
+        {
+          "id": "B0CHX5D2CZ",
+          "title": "Bark Collar for Large Dogs,No bark Collars for Dogs Training,Dog bark Collar for Small Medium Dogs for 5-15lbs,Anti Barking Collar for Dog with 9 Adjustable Sensitivity and Vibration£¬bark Collar",
+          "category": "Pet Supplies",
+          "score": 0.0915
+        },
+        {
+          "id": "B0BWVY4FZF",
+          "title": "LUCKYDC Martingale Collar for Training Dogs. Adjustable Reflective Collars with Buckle-USA Flag- NO Pull-Prevents Slipping Out, for Medium Large XL Dogs. Helps with Strong pullers(L, Blue)",
+          "category": "Pet Supplies",
+          "score": 0.091
+        },
+        {
+          "id": "B0BZHWDFVD",
+          "title": "Large Dog Collar, Adjustable 16\"-24\" Pet Collar,Bell for Dog Collar,Reflective Nylon Dog Collars,2 D-Ring,Width 1\"",
+          "category": "Pet Supplies",
+          "score": 0.0903
+        },
+        {
+          "id": "B0C7399MNS",
+          "title": "Dog Training Collar for Large Dog, Waterproof Dog Shock Collar, Rechargeable Electronic Dog Collar with Vibration Beep Shock Lock Modes, Adjustable Collar Strap 2600Ft Remote",
+          "category": "Pet Supplies",
+          "score": 0.0888
+        }
+      ],
+      "q24": [
+        {
+          "id": "B0C42CB6JN",
+          "title": "Small Pet Select - Premium White Paper Pelleted Cat Litter for Litter Pans - Lightweight & Odor Controlling Non-Clumping Paper Pellets Safe for Kittens and Senior Cats - 35L",
+          "category": "Pet Supplies",
+          "score": 0.0984
+        },
+        {
+          "id": "B0BHSSFM76",
+          "title": "Amazon Basics Sifting Scoop-Free Easy-to-Clean Cat Litter Box, Large",
+          "category": "Pet Supplies",
+          "score": 0.0934
+        },
+        {
+          "id": "B0BYB59FRX",
+          "title": "Durable Thick Cat Litter Mat - Modern Cat Mat With Non-Slip Bottom Stays In Place - Super Soft On Kitty Paws - Easy To Clean Litter Box Mat - Waterproof Cat Litter Trapping Mat Protect Floors.",
+          "category": "Tools & Home Improvement",
+          "score": 0.0926
+        },
+        {
+          "id": "B0C68TZX3P",
+          "title": "Cat Easy to Clean, No Odor High Sided Kitten Litter Pan Cat Toilet Pets Supplies Open Top Pet Litter Tray for Rabbit Small Pets, Gray",
+          "category": "Pet Supplies",
+          "score": 0.0919
+        },
+        {
+          "id": "B0C53DMJYH",
+          "title": "Zhehao 3 Set Stainless Steel Cat Litter Box with 3 Pcs Wood Handle Cat Litter Scoop, 15.8 x 11.8 x 3.9 Inch Metal Litter Box Rustproof Non Stick Cat Pan with Deep Cat Scooper for Bunny Kitten Kitty",
+          "category": "Pet Supplies",
+          "score": 0.0883
+        }
+      ],
+      "q25": [
+        {
+          "id": "B0BT72GK41",
+          "title": "Collapsible Octopus Camera Mini Tripod, Flexible Cell Phone Holder Stand Selfie Stick Camera Stand Smart Phone Stand",
+          "category": "Camera & Photo",
+          "score": 0.0981
+        },
+        {
+          "id": "B0BX71PBK1",
+          "title": "WILDGAMEPLUS Portable Shooting Tripod Rest Rapid Rifle Shooting Stand, Adjustable Compact Lightweight Aluminum Cast Construction Bench Stick with 360 Degree Rotate V Yoke Holder",
+          "category": "Sports & Outdoors",
+          "score": 0.0965
+        },
+        {
+          "id": "B0CB6HQB5W",
+          "title": "Phone Tripod, Cell Phone Holder for iPhone and Android Phones, with Small Portable Tripod with Wireless Remote Control and Clip for Video Shooting, Vlogging, Selfie",
+          "category": "Camera & Photo",
+          "score": 0.0927
+        },
+        {
+          "id": "B0BXJMS84N",
+          "title": "Selfie Stick Tripod with Remote and 2 Fill Light - Tripod for iPhone - Portable 49 inch iPhone Tripod Stand - New Phone Tripod Compatible with iPhone & Smartphones (Black)",
+          "category": "Camera & Photo",
+          "score": 0.0893
+        },
+        {
+          "id": "B0BYMCTX23",
+          "title": "LONJADE Selfie Stick Tripod Quadrapod-55 inch Extendable Selfie Stick 4 in 1 Phone Tripod Stand with Remote Handheld Travel Holder Compatible with Gopro iPhone Samsung Cell Phone Video Recording",
+          "category": "Camera & Photo",
+          "score": 0.0872
+        }
+      ]
+    },
     "en_oracle": {
       "q01": [
         {
@@ -4938,6 +6612,12 @@
       "reason": "the head noun is \"tripod\", exactly what was asked; \"camera tripod stand\" is just a description.",
       "title": "SOH Phone Tripod, Flexible & Portable Camera Tripod Stand with Universal Clip, 360° Rotating Tabletop Travel Tripod Holder Compatible with Smartphones GoPro and Small Camera",
       "wanted": "camera tripod stand"
+    },
+    "q05|B0BTFR4MWB": {
+      "match": false,
+      "reason": "the head noun is \"shoulder bag\", not a crossbody bag or handbag.",
+      "title": "Women Genuine Leather Shoulder Bag Floral-Embossed Crossbody Bag Handbag Purse for Women",
+      "wanted": "genuine leather crossbody bag"
     }
   }
 }

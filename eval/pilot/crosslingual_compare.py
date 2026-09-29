@@ -37,7 +37,18 @@ RESULTS_DIR = settings.ROOT / "eval" / "results"
 REPORT_FILE = RESULTS_DIR / "crosslingual_compare.md"
 RAW_FILE = RESULTS_DIR / "crosslingual_compare.json"
 
-STRATEGIES = ["thai", "translate", "fused", "en_oracle"]
+# ชื่อกลยุทธ์ -> (โหมดของ Retriever, น้ำหนัก RRF (ไทย, อังกฤษ))
+# `fused_w3` / `fused_w5` เพิ่มหลังพบว่า RRF น้ำหนักเท่ากันแพ้การแปลอย่างเดียว
+# สมมติฐาน: ถ่วงให้ฝั่งอังกฤษมากกว่า จะได้ความแม่นของฝั่งแปล + เก็บกลไกพยุงตอนแปลผิดไว้
+STRATEGY_SPECS: dict[str, tuple[str, tuple[float, float]]] = {
+    "thai": ("thai", (1.0, 1.0)),
+    "translate": ("translate", (1.0, 1.0)),
+    "fused": ("fused", (1.0, 1.0)),
+    "fused_w3": ("fused", (1.0, 3.0)),
+    "fused_w5": ("fused", (1.0, 5.0)),
+    "en_oracle": ("raw", (1.0, 1.0)),
+}
+STRATEGIES = list(STRATEGY_SPECS)
 
 
 def retrieve_all(k: int) -> tuple[dict, dict]:
@@ -50,11 +61,9 @@ def retrieve_all(k: int) -> tuple[dict, dict]:
             thai, english = pair["th"], pair["en"]
             translations[pair["id"]] = retriever.translator.translate(thai)
 
-            for strategy in STRATEGIES:
-                if strategy == "en_oracle":
-                    hits = retriever.search(english, n=k, strategy="raw")
-                else:
-                    hits = retriever.search(thai, n=k, strategy=strategy)
+            for strategy, (mode, weights) in STRATEGY_SPECS.items():
+                text = english if strategy == "en_oracle" else thai
+                hits = retriever.search(text, n=k, strategy=mode, fuse_weights=weights)
                 results[strategy][pair["id"]] = [
                     {"id": h.id, "title": h.title, "category": h.category,
                      "score": round(h.score, 4)} for h in hits
@@ -64,9 +73,16 @@ def retrieve_all(k: int) -> tuple[dict, dict]:
     return results, translations
 
 
-def judge_all(results: dict, k: int) -> dict:
-    """ตัดสินทุกคู่ (คำค้น, สินค้า) ว่าตรงประเภทไหม — judge มี cache จึงไม่ตัดสินคู่เดิมซ้ำ"""
-    verdicts: dict[str, dict] = {}
+def judge_all(results: dict, k: int, warm_cache: dict | None = None) -> dict:
+    """ตัดสินทุกคู่ (คำค้น, สินค้า) ว่าตรงประเภทไหม
+
+    `warm_cache` = คำตัดสินจากการรันครั้งก่อน ใช้ซ้ำได้เมื่อ **prompt ของ judge ไม่เปลี่ยน**
+    นอกจากจะเร็วขึ้นแล้ว ยังทำให้คู่เดิมได้คำตัดสินเดิมเป๊ะ — กลยุทธ์ที่เพิ่มเข้ามาทีหลัง
+    จึงถูกวัดด้วยไม้บรรทัดอันเดียวกับของเดิม ไม่ใช่ไม้บรรทัดที่สุ่มใหม่
+    """
+    verdicts: dict[str, dict] = dict(warm_cache or {})
+    if verdicts:
+        log.info("ใช้คำตัดสินเดิมซ้ำ %s คู่", f"{len(verdicts):,}")
     total = sum(len(results[s][q["id"]]) for s in STRATEGIES for q in QUERY_PAIRS)
     done = 0
     started = time.perf_counter()
@@ -129,7 +145,11 @@ def summarise(results: dict, verdicts: dict, k: int) -> dict:
 
 def write_report(summary: dict, results: dict, translations: dict, verdicts: dict, k: int) -> None:
     names = {"thai": "ก. ไทยล้วน", "translate": "ข. แปลก่อนค้น",
-             "fused": "ค. สองภาษา + RRF", "en_oracle": "(เพดานบน) คำค้นอังกฤษที่คนเขียน"}
+             "fused": "ค. สองภาษา + RRF (1:1)", "fused_w3": "ง. สองภาษา + RRF (ไทย:อังกฤษ = 1:3)",
+             "fused_w5": "จ. สองภาษา + RRF (1:5)",
+             "en_oracle": "(เพดานบน) คำค้นอังกฤษที่คนเขียน"}
+    short = {"thai": "ก.ไทย", "translate": "ข.แปล", "fused": "ค.1:1",
+             "fused_w3": "ง.1:3", "fused_w5": "จ.1:5", "en_oracle": "เพดานบน"}
 
     lines = [
         "# เทียบกลยุทธ์ Cross-lingual Retrieval บนคลังเต็ม",
@@ -155,9 +175,10 @@ def write_report(summary: dict, results: dict, translations: dict, verdicts: dic
     if unparsed:
         lines += ["", f"⚠ judge ตอบในรูปแบบที่ parse ไม่ได้ {unparsed} ครั้ง (ไม่นับรวมในตัวหาร)"]
 
+    header = " | ".join(short[s] for s in STRATEGIES)
     lines += ["", "## รายคำค้น", "",
-              "| id | คำค้นไทย | คำแปลที่ Typhoon2 ได้ | ก.ไทย | ข.แปล | ค.รวม | เพดานบน |",
-              "|---|---|---|---|---|---|---|"]
+              f"| id | คำค้นไทย | คำแปลที่ Typhoon2 ได้ | {header} |",
+              "|---|---|---|" + "---|" * len(STRATEGIES)]
     for pair in QUERY_PAIRS:
         row = " | ".join(f"{summary[s]['per_query'][pair['id']]:.0%}" for s in STRATEGIES)
         lines.append(f"| {pair['id']} | {pair['th']} | {translations[pair['id']]} | {row} |")
@@ -217,18 +238,21 @@ def main() -> None:
     args = parser.parse_args()
     k = args.top_k
 
+    previous = json.loads(RAW_FILE.read_text(encoding="utf-8")) if RAW_FILE.exists() else {}
+
     if args.rejudge:
-        if not RAW_FILE.exists():
+        if not previous:
             raise SystemExit(f"ไม่พบ {RAW_FILE} — ต้องรันเต็มอย่างน้อยหนึ่งครั้งก่อน")
         log.info("โหมด rejudge — ใช้ผลการค้นเดิมจาก %s", RAW_FILE.name)
-        previous = json.loads(RAW_FILE.read_text(encoding="utf-8"))
         results, translations = previous["results"], previous["translations"]
+        warm_cache = None    # แก้ prompt ของ judge อยู่ จึงต้องตัดสินใหม่หมด
     else:
         log.info("ขั้นที่ 1/3 — ค้นด้วย %d กลยุทธ์ × %d คำค้น", len(STRATEGIES), len(QUERY_PAIRS))
         results, translations = retrieve_all(k)
+        warm_cache = previous.get("verdicts")
 
     log.info("ขั้นที่ 2/3 — ตัดสินประเภทสินค้าด้วย LLM judge")
-    verdicts = judge_all(results, k)
+    verdicts = judge_all(results, k, warm_cache=warm_cache)
 
     log.info("ขั้นที่ 3/3 — สรุปผล")
     summary = summarise(results, verdicts, k)

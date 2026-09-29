@@ -1,6 +1,6 @@
 # คำตัดสินทั้งหมดของ LLM judge (สำหรับไล่ตรวจด้วยมือ)
 
-รวม 260 คู่ (คำค้น × สินค้า) หลังตัดรายการซ้ำ
+รวม 261 คู่ (คำค้น × สินค้า) หลังตัดรายการซ้ำ
 
 ## q01 — ผู้ใช้ต้องการ: waterproof wireless bluetooth headphones
 
@@ -116,6 +116,8 @@
   - _the head noun is "bag", not a specific type of material or style._
 - ❌ NO  | Pascado Vintage leather crossbody mini wallet clutch purse shoulder handbag for women br
   - _the head noun is "wallet", not a bag._
+- ❌ NO  | Women Genuine Leather Shoulder Bag Floral-Embossed Crossbody Bag Handbag Purse for Women
+  - _the head noun is "shoulder bag", not a crossbody bag or handbag._
 
 ## q06 — ผู้ใช้ต้องการ: black cotton t-shirt
 

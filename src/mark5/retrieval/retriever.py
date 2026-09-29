@@ -24,6 +24,10 @@ log = get_logger(__name__)
 
 Strategy = Literal["thai", "translate", "fused", "raw"]
 
+# กลยุทธ์ที่ตัดสินให้ใช้จริง (ADR-0005) — วัดแล้วได้ product-type precision@5 = 64.0%
+# เทียบไทยล้วน 47.2% และแบบรวมสองภาษาทุกอัตราส่วนที่ลอง (56.8-61.6%)
+DEFAULT_STRATEGY: Strategy = "translate"
+
 
 @dataclass
 class Hit:
@@ -75,9 +79,15 @@ class Retriever:
             ))
         return hits
 
-    def search(self, query: str, n: int = 10, strategy: Strategy = "fused",
-               where: dict | None = None) -> list[Hit]:
-        """ค้นสินค้า — `query` เป็นภาษาไทย ยกเว้น strategy="raw" ที่ค้นด้วยข้อความตามที่ให้มา"""
+    def search(self, query: str, n: int = 10, strategy: Strategy = DEFAULT_STRATEGY,
+               where: dict | None = None,
+               fuse_weights: tuple[float, float] = (1.0, 1.0)) -> list[Hit]:
+        """ค้นสินค้า — `query` เป็นภาษาไทย ยกเว้น strategy="raw" ที่ค้นด้วยข้อความตามที่ให้มา
+
+        `fuse_weights` = (น้ำหนักฝั่งไทย, น้ำหนักฝั่งอังกฤษ) ใช้เฉพาะ strategy="fused"
+        ค่าเริ่มต้น (1,1) คือให้สิทธิ์เท่ากัน ซึ่งวัดแล้วแพ้การแปลอย่างเดียว เพราะฝั่งไทย
+        แม่นน้อยกว่าชัดเจนแต่ได้เสียงเท่ากัน — ดู `eval/results/crosslingual_compare.md`
+        """
         if strategy in ("raw", "thai"):
             return self._search(query, n, where)
 
@@ -90,7 +100,10 @@ class Retriever:
             thai_hits = self._search(query, pool, where)
             english_hits = self._search(self.translator.translate(query), pool, where)
 
-            fused = rrf.fuse([[h.id for h in thai_hits], [h.id for h in english_hits]])
+            fused = rrf.fuse(
+                [[h.id for h in thai_hits], [h.id for h in english_hits]],
+                weights=list(fuse_weights),
+            )
             by_id = {h.id: h for h in (*english_hits, *thai_hits)}   # ไทยทับอังกฤษไม่สำคัญ ข้อมูลเดียวกัน
 
             out = []

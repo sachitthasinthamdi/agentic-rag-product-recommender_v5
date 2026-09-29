@@ -75,9 +75,10 @@ roadmap ในคลิปเรียงตาม *ขั้นตอนคว�
       เพราะใช้ Chroma local แต่เสียเวลา)
 
 ### Phase 2 — Retrieval + Guardrails (ด่าน 7)
-- [ ] **Cross-lingual retrieval** (ใหม่) — คำค้นไทย → เอกสารอังกฤษ; ทดสอบ BGE-M3 ตรง ๆ ก่อน
-      แล้วเทียบกับการแปลคำค้น ดู ADR-0005 + ตัวชี้วัด cross-lingual gap ใน `01_objectives.md`
-- [ ] Retriever (semantic + metadata filter)
+- [x] **Cross-lingual retrieval** — ✅ ตัดสินแล้ว (ADR-0005): แปลคำค้นเป็นอังกฤษก่อนค้น
+      ทดลอง 3 รอบ เทียบ 6 กลยุทธ์ · **เพดานบนอยู่แค่ 70.4% → ปัญหาสินค้าผิดประเภท
+      ส่วนใหญ่ไม่ใช่ปัญหาภาษา ต้องปิดช่องว่างด้วย guardrail**
+- [x] Retriever (semantic + metadata filter) — `src/mark5/retrieval/retriever.py` 3 กลยุทธ์
 - [ ] Reranker (RRF — ยกหลักการจาก mark4 ที่พิสูจน์แล้วว่าได้ผล เขียนใหม่ให้สะอาด)
 - [ ] **Guardrails** — ตัวกรองประเภทสินค้า + audience + out-of-scope → แก้ปัญหาหลักของ mark4
 
@@ -114,4 +115,4 @@ roadmap ในคลิปเรียงตาม *ขั้นตอนคว�
 | ADR-0002 | ทำ fine-tuning ไหม | 🔲 ยังไม่เขียน (เอนไปทาง "ไม่ทำ") |
 | ADR-0003 | Single-agent หรือ multi-agent | 🔲 ยังไม่เขียน |
 | ADR-0004 | Vector store | ✅ **ตัดสินแล้ว: Chroma local เท่านั้น ไม่ใช้ Chroma Cloud** |
-| ADR-0005 | Cross-lingual retrieval: ค้นไทยตรง ๆ / แปลคำค้นก่อน / ค้นสองภาษารวมด้วย RRF | ⏸ **มีผลทดลองแล้ว รอเคาะ** — `eval/results/crosslingual_pilot.md` ชี้ว่าค้นไทยตรง ๆ ทำให้หลุดประเภทสินค้า |
+| ADR-0005 | Cross-lingual retrieval | ✅ **ตัดสินแล้ว: แปลคำค้นเป็นอังกฤษก่อนค้น** (64.0% เทียบไทยล้วน 47.2%) RRF ถ่วงน้ำหนักลองแล้วไม่ช่วย |
