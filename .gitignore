@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.pytest_cache/
+.ruff_cache/
+
+# ข้อมูลและ vector store — ใหญ่เกินกว่าจะเก็บใน git (สร้างใหม่ได้ด้วย pipeline)
+data/
+
+# log ที่ runtime สร้าง
+logs/
+
+# ผลลัพธ์ดิบของ eval (รายงานสรุป .md ใน eval/results/ ให้ commit)
+eval/results/*.jsonl
+eval/results/*.csv

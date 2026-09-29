@@ -1,0 +1,1016 @@
+{
+  "summary": {
+    "sample_size": 5018,
+    "top_k": 10,
+    "n_queries": 25,
+    "mean_overlap_at_5": 0.544,
+    "mean_overlap_at_k": 0.49200000000000005,
+    "rate_en_top1_in_th_topk": 0.92,
+    "rate_th_top1_in_en_topk": 0.8,
+    "mean_th_score_at_5": 0.5726746659794728,
+    "mean_en_score_at_5": 0.6160739206641815,
+    "mean_query_pair_cosine": 0.7424816969813436
+  },
+  "queries": [
+    {
+      "id": "q01",
+      "th": "หูฟังบลูทูธไร้สายกันน้ำ",
+      "en": "waterproof wireless bluetooth headphones",
+      "overlap_at_5": 0.8,
+      "overlap_at_k": 0.8,
+      "en_top1_in_th_topk": true,
+      "th_top1_in_en_topk": true,
+      "th_mean_score_at_5": 0.6473203791036064,
+      "en_mean_score_at_5": 0.6704602515108322,
+      "query_pair_cosine": 0.8112601983471516,
+      "th_top3": [
+        {
+          "title": "Easy-Take Wireless Earbuds, Bluetoth 5.3 Noise Cancelling Earbuds, 30H Playtime, Hi-Fi Ste",
+          "category": "All Electronics"
+        },
+        {
+          "title": "Waterproof Bluetooth 5.2 Wireless Earbuds Touch Control,30H Cyclic Playtime TWS Headphones",
+          "category": "All Electronics"
+        },
+        {
+          "title": "Byikun Bluetooth Headphones, Wireless Earbuds, True Bone Conduction Concept Bluetooth Head",
+          "category": "All Electronics"
+        }
+      ],
+      "en_top3": [
+        {
+          "title": "Waterproof Bluetooth 5.2 Wireless Earbuds Touch Control,30H Cyclic Playtime TWS Headphones",
+          "category": "All Electronics"
+        },
+        {
+          "title": "bonabest Bluetooth 5.3 Wireless Earbuds 40H Playback with LED Display Charging Case, IPX7 ",
+          "category": "All Electronics"
+        },
+        {
+          "title": "Byikun Bluetooth Headphones, Wireless Earbuds, True Bone Conduction Concept Bluetooth Head",
+          "category": "All Electronics"
+        }
+      ]
+    },
+    {
+      "id": "q02",
+      "th": "เคสมือถือกันกระแทก",
+      "en": "shockproof phone case",
+      "overlap_at_5": 0.8,
+      "overlap_at_k": 0.5,
+      "en_top1_in_th_topk": true,
+      "th_top1_in_en_topk": true,
+      "th_mean_score_at_5": 0.640317750359922,
+      "en_mean_score_at_5": 0.6613252441544164,
+      "query_pair_cosine": 0.7673382451893357,
+      "th_top3": [
+        {
+          "title": "Case Phone Compatible with Samsung iPhone Dabi 6 7 8 X Xr 11 12 13 14 Pro Max SE 2022 S10 ",
+          "category": "Cell Phones & Accessories"
+        },
+        {
+          "title": "Phone Case Compatible with iPhone 14 Samsung Galaxy 15 The 7 Seven 12 Deadly Pro Max Sins ",
+          "category": "Cell Phones & Accessories"
+        },
+        {
+          "title": "YBROY Case for TCL 30 XL, Magnetic Flip Leather Premium Wallet Phone Case, with Card Slot ",
+          "category": "Cell Phones & Accessories"
+        }
+      ],
+      "en_top3": [
+        {
+          "title": "Case Phone Compatible with Samsung iPhone Dabi 6 7 8 X Xr 11 12 13 14 Pro Max SE 2022 S10 ",
+          "category": "Cell Phones & Accessories"
+        },
+        {
+          "title": "Phone Case Scarlet Funny Witch TPU Clear Pc Compatible with iPhone 13 12 11 X Xs Xr 8 7 6 ",
+          "category": "Cell Phones & Accessories"
+        },
+        {
+          "title": "Imogacla 2023 Cool Astronaut Phone Case iPhone 14 Pro Max Case - 6D Plating Astronaut Fold",
+          "category": "Cell Phones & Accessories"
+        }
+      ]
+    },
+    {
+      "id": "q03",
+      "th": "สายชาร์จ USB-C ยาว 2 เมตร",
+      "en": "2 meter USB-C charging cable",
+      "overlap_at_5": 0.8,
+      "overlap_at_k": 0.9,
+      "en_top1_in_th_topk": true,
+      "th_top1_in_en_topk": true,
+      "th_mean_score_at_5": 0.6409805375142026,
+      "en_mean_score_at_5": 0.6774931657018255,
+      "query_pair_cosine": 0.8994418966557046,
+      "th_top3": [
+        {
+          "title": "USB C to USB C Cable 2pack 6FT 60W [Apple MFi Certified], Type C Long Apple Fast Charge Co",
+          "category": "Electronics"
+        },
+        {
+          "title": "USB C to USB Adapter 2 Pack Black, USB C Female to A Male Charger Type C Converter, for Ul",
+          "category": "Cell Phones & Accessories"
+        },
+        {
+          "title": "ISDT 2 Pack 240W USB C to C PD Fast Charging Cable - Power Delivery 3.0 Data Cord (3.93ft+",
+          "category": "Industrial & Scientific"
+        }
+      ],
+      "en_top3": [
+        {
+          "title": "USB C to USB C Cable 2pack 6FT 60W [Apple MFi Certified], Type C Long Apple Fast Charge Co",
+          "category": "Electronics"
+        },
+        {
+          "title": "ISDT 2 Pack 240W USB C to C PD Fast Charging Cable - Power Delivery 3.0 Data Cord (3.93ft+",
+          "category": "Industrial & Scientific"
+        },
+        {
+          "title": "Super Fast iPhone Charger,2 in 1[Apple MFi Certified]2Pack 20W AC USB C Dual Port Fast Cha",
+          "category": "Cell Phones & Accessories"
+        }
+      ]
+    },
+    {
+      "id": "q04",
+      "th": "รองเท้าวิ่งผู้ชายน้ำหนักเบา",
+      "en": "lightweight running shoes for men",
+      "overlap_at_5": 0.6,
+      "overlap_at_k": 0.8,
+      "en_top1_in_th_topk": true,
+      "th_top1_in_en_topk": true,
+      "th_mean_score_at_5": 0.5901437880369318,
+      "en_mean_score_at_5": 0.6210298708912764,
+      "query_pair_cosine": 0.8711616959415363,
+      "th_top3": [
+        {
+          "title": "Hi-Tec Athletic Men's Back Trail Running Shoe",
+          "category": "Clothing, Shoes & Jewelry"
+        },
+        {
+          "title": "Nike Men's Gymnastics Shoes, 6.5",
+          "category": "AMAZON FASHION"
+        },
+        {
+          "title": "Champion, MVP with Total Support Pouch, Running Shorts for Men with Liner, 5\"",
+          "category": "AMAZON FASHION"
+        }
+      ],
+      "en_top3": [
+        {
+          "title": "Hi-Tec Athletic Men's Back Trail Running Shoe",
+          "category": "Clothing, Shoes & Jewelry"
+        },
+        {
+          "title": "Icebreaker Merino Men's Hiking Medium Crew Socks, Breathable, Odor Resistant, New Zealand ",
+          "category": "AMAZON FASHION"
+        },
+        {
+          "title": "Salomon Supercross 4 Trail Running Shoes Mens",
+          "category": "AMAZON FASHION"
+        }
+      ]
+    },
+    {
+      "id": "q05",
+      "th": "กระเป๋าสะพายข้างหนังแท้",
+      "en": "genuine leather crossbody bag",
+      "overlap_at_5": 0.2,
+      "overlap_at_k": 0.4,
+      "en_top1_in_th_topk": true,
+      "th_top1_in_en_topk": false,
+      "th_mean_score_at_5": 0.5910820931785784,
+      "en_mean_score_at_5": 0.6652505284908111,
+      "query_pair_cosine": 0.720662666174842,
+      "th_top3": [
+        {
+          "title": "Loungefly Exclusive Toy Story Sid's Toys Double Strap Shoulder Bag",
+          "category": "Clothing, Shoes & Jewelry"
+        },
+        {
+          "title": "HDHTB Woven Tote Bag, Women Macaron Soft Leather Weave Handbag Purse Wrist Bag Large Capac",
+          "category": "AMAZON FASHION"
+        },
+        {
+          "title": "PERSONALIZED Leather Blue and Tan Bown Wallet. Credit Card, Cash or ID Holder. Rustic Styl",
+          "category": "Handmade"
+        }
+      ],
+      "en_top3": [
+        {
+          "title": "Leather Crossbody Bags for Women, leather purses and handbags, Leather Shoulder sling bag,",
+          "category": "AMAZON FASHION"
+        },
+        {
+          "title": "Rebecca Minkoff Edie Crossbody",
+          "category": "AMAZON FASHION"
+        },
+        {
+          "title": "CAIAQAZY Crossbody Bags for Women Trendy,Cross Body Bag,Sling bag With 2 Adjustable Strap ",
+          "category": "Clothing, Shoes & Jewelry"
+        }
+      ]
+    },
+    {
+      "id": "q06",
+      "th": "เสื้อยืดผ้าฝ้ายสีดำ",
+      "en": "black cotton t-shirt",
+      "overlap_at_5": 0.0,
+      "overlap_at_k": 0.0,
+      "en_top1_in_th_topk": false,
+      "th_top1_in_en_topk": false,
+      "th_mean_score_at_5": 0.5379964558510084,
+      "en_mean_score_at_5": 0.6052110634887656,
+      "query_pair_cosine": 0.7034596188859866,
+      "th_top3": [
+        {
+          "title": "Tommy Hilfiger Womens Cazidine Logo Casual Thong Sandals",
+          "category": "AMAZON FASHION"
+        },
+        {
+          "title": "Tommy Hilfiger Girls' Big Core Lightweight Cardigan Sweater",
+          "category": "AMAZON FASHION"
+        },
+        {
+          "title": "Smino Men's Ice Cream X Zero Fatigue Cones N' Bones Tee",
+          "category": "AMAZON FASHION"
+        }
+      ],
+      "en_top3": [
+        {
+          "title": "New York Kane Logo Shirt T-Shirt, Mens, Short Sleeve, Blue",
+          "category": "AMAZON FASHION"
+        },
+        {
+          "title": "Men's Marvel Avengers: Infinity War Armor T-Shirt - Black - 3X Large",
+          "category": "AMAZON FASHION"
+        },
+        {
+          "title": "DAZZO Premium Slim-Fit Artistic Tees for Men with Ultimate Comfort & Style - Soft Black T-",
+          "category": "Clothing, Shoes & Jewelry"
+        }
+      ]
+    },
+    {
+      "id": "q07",
+      "th": "หมอนหนุนเมมโมรี่โฟม",
+      "en": "memory foam pillow",
+      "overlap_at_5": 0.4,
+      "overlap_at_k": 0.5,
+      "en_top1_in_th_topk": true,
+      "th_top1_in_en_topk": true,
+      "th_mean_score_at_5": 0.5326187058727853,
+      "en_mean_score_at_5": 0.5908951012680659,
+      "query_pair_cosine": 0.7351864097463773,
+      "th_top3": [
+        {
+          "title": "ORTHOMTEX 3 Inch Cooling Gel Memory Foam Mattress Topper Super Twin Size Bed,Removable Sof",
+          "category": "Amazon Home"
+        },
+        {
+          "title": "pitkalle Seat Cushion,Office Chair Cushions, Memory Foam Chair Cushion with Lumbar Support",
+          "category": "Amazon Home"
+        },
+        {
+          "title": "BROWSLUV Therapeutic Sleep Pillow, Browsluv Pillow for Neck Shoulder Spine Pain, Homezo Er",
+          "category": "Amazon Home"
+        }
+      ],
+      "en_top3": [
+        {
+          "title": "ORTHOMTEX 3 Inch Cooling Gel Memory Foam Mattress Topper Super Twin Size Bed,Removable Sof",
+          "category": "Amazon Home"
+        },
+        {
+          "title": "Vekkia Large Lightweight Bed Reading Pillow, Back Support Pillow for Sitting up in Bed, Ne",
+          "category": "Amazon Home"
+        },
+        {
+          "title": "KEPTFIT Office Chair Seat Cushion, Gel Memory Foam Desk Car Seat Cushions for Back, Coccyx",
+          "category": "Office Products"
+        }
+      ]
+    },
+    {
+      "id": "q08",
+      "th": "ผ้าม่านกันแสงสำหรับห้องนอน",
+      "en": "blackout curtains for bedroom",
+      "overlap_at_5": 0.6,
+      "overlap_at_k": 0.5,
+      "en_top1_in_th_topk": true,
+      "th_top1_in_en_topk": true,
+      "th_mean_score_at_5": 0.5673247834199662,
+      "en_mean_score_at_5": 0.658706002128193,
+      "query_pair_cosine": 0.6646161689787135,
+      "th_top3": [
+        {
+          "title": "Mengersi Canopy Bed Curtains with Bed Canopy, 2-in-1 Anti-Glare Windproof Lightproof Bed C",
+          "category": "Home & Kitchen"
+        },
+        {
+          "title": "Blackout Curtains,100% Window Blinds Black Out Curtains,Portable Blackout Blinds Window Sh",
+          "category": "Amazon Home"
+        },
+        {
+          "title": "Taisier Home Floral Print Thermal Insulated Bedroom Blackout Heat Absorbing Room Darkening",
+          "category": "Amazon Home"
+        }
+      ],
+      "en_top3": [
+        {
+          "title": "Blackout Curtains,100% Window Blinds Black Out Curtains,Portable Blackout Blinds Window Sh",
+          "category": "Amazon Home"
+        },
+        {
+          "title": "HATCHED Textile Blackout Curtain 2 Panels Oil Painting on Canvas. Multicolored Bright Text",
+          "category": "Amazon Home"
+        },
+        {
+          "title": "Abstract Beach Curtains for Home Decor Watercolor Coconut Tropical Ocean Beach at Summer H",
+          "category": "Home & Kitchen"
+        }
+      ]
+    },
+    {
+      "id": "q09",
+      "th": "กระทะเหล็กหล่อ",
+      "en": "cast iron skillet",
+      "overlap_at_5": 0.4,
+      "overlap_at_k": 0.3,
+      "en_top1_in_th_topk": true,
+      "th_top1_in_en_topk": true,
+      "th_mean_score_at_5": 0.47204538248282796,
+      "en_mean_score_at_5": 0.5519875018557039,
+      "query_pair_cosine": 0.5511160572720095,
+      "th_top3": [
+        {
+          "title": "AMABEApdg Frying Pan Cast Iron Frying Pan Non-Stick Uncoated Saucepan Egg Pancake Cooking ",
+          "category": "Home & Kitchen"
+        },
+        {
+          "title": "Spatula Metal Spatula For Cooking Pancake Spatula Steak Spatula Hamburger Spatula Stainles",
+          "category": "Amazon Home"
+        },
+        {
+          "title": "Restaurantware Eco Pie Kraft Paper Corrugated Flatbread Box - 24\" x 8\" x 2\" - 50 count box",
+          "category": "Amazon Home"
+        }
+      ],
+      "en_top3": [
+        {
+          "title": "AMABEApdg Frying Pan Cast Iron Frying Pan Non-Stick Uncoated Saucepan Egg Pancake Cooking ",
+          "category": "Home & Kitchen"
+        },
+        {
+          "title": "Spatula Metal Spatula For Cooking Pancake Spatula Steak Spatula Hamburger Spatula Stainles",
+          "category": "Amazon Home"
+        },
+        {
+          "title": "KITCHENLESTAR Spoon Rest for Stove Top Cooking Spoon Holder for Kitchen Countertop Large H",
+          "category": "Home & Kitchen"
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "th": "เครื่องชงกาแฟแบบดริป",
+      "en": "drip coffee maker",
+      "overlap_at_5": 1.0,
+      "overlap_at_k": 0.7,
+      "en_top1_in_th_topk": true,
+      "th_top1_in_en_topk": true,
+      "th_mean_score_at_5": 0.5615255226305021,
+      "en_mean_score_at_5": 0.5962350769896214,
+      "query_pair_cosine": 0.81022515197516,
+      "th_top3": [
+        {
+          "title": "Birdee Premium Vietnamese Coffee Filter Set in Brown - Small Dripping Coffee Phin Filter f",
+          "category": "Small Appliance Parts & Accessories"
+        },
+        {
+          "title": "iFill Cup - Disposable Coffee Filter for Any Keurig Coffee Machine (100% Recyclable) - Fil",
+          "category": "Amazon Home"
+        },
+        {
+          "title": "Ninja DCM201 14 Cup Programmable Coffee Maker XL Pro (Renewed) Bundle with 2 YR CPS Enhanc",
+          "category": "Amazon Home"
+        }
+      ],
+      "en_top3": [
+        {
+          "title": "iFill Cup - Disposable Coffee Filter for Any Keurig Coffee Machine (100% Recyclable) - Fil",
+          "category": "Amazon Home"
+        },
+        {
+          "title": "Birdee Premium Vietnamese Coffee Filter Set in Brown - Small Dripping Coffee Phin Filter f",
+          "category": "Small Appliance Parts & Accessories"
+        },
+        {
+          "title": "Ninja DCM201 14 Cup Programmable Coffee Maker XL Pro (Renewed) Bundle with 2 YR CPS Enhanc",
+          "category": "Amazon Home"
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "th": "ชุดไขควงอเนกประสงค์",
+      "en": "multipurpose screwdriver set",
+      "overlap_at_5": 0.2,
+      "overlap_at_k": 0.2,
+      "en_top1_in_th_topk": true,
+      "th_top1_in_en_topk": false,
+      "th_mean_score_at_5": 0.5247689622028322,
+      "en_mean_score_at_5": 0.6227487426969487,
+      "query_pair_cosine": 0.6187115831687393,
+      "th_top3": [
+        {
+          "title": "Instant Power NON ACIDIC Heavy Duty Drain Opener KIT by J&L Supply – 1 Liter Hair & Grease",
+          "category": "Health & Personal Care"
+        },
+        {
+          "title": "The Original Hydraulic Quick Coupling Pressure Decompression Relief Release Tool 1/2\" Ag/P",
+          "category": "Tools & Home Improvement"
+        },
+        {
+          "title": "Teamoda Universal Adjustable Double-ended Wrench, 2023 Upgrade Bathroom Multifunctional Wr",
+          "category": "Tools & Home Improvement"
+        }
+      ],
+      "en_top3": [
+        {
+          "title": "Screwdriver Set 10 Piece, Cushion Grip, 5 Phillips and 5 Flat Head Tips",
+          "category": "Tools & Home Improvement"
+        },
+        {
+          "title": "Nuyoah Precision Screwdriver Set, 138 in 1 Computer Repair Tool Kit, Magnetic Screwdriver ",
+          "category": "Tools & Home Improvement"
+        },
+        {
+          "title": "Precision Screwdriver Set with Durable S2 Microbits, NECAMOCU Professional 46 in 1 Magneti",
+          "category": "Tools & Home Improvement"
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "th": "สว่านไร้สายแบบใช้แบตเตอรี่",
+      "en": "cordless battery powered drill",
+      "overlap_at_5": 0.4,
+      "overlap_at_k": 0.4,
+      "en_top1_in_th_topk": true,
+      "th_top1_in_en_topk": true,
+      "th_mean_score_at_5": 0.5465439046390782,
+      "en_mean_score_at_5": 0.5524706760311755,
+      "query_pair_cosine": 0.6872045045616014,
+      "th_top3": [
+        {
+          "title": "Greenworks 24V Brushless 1\" Compact Reciprocating Saw (3,000 SPM), 2.0Ah Battery and Compa",
+          "category": "Tools & Home Improvement"
+        },
+        {
+          "title": "2023 New Portable Mini Electric Shaver, Premium Electric Razor for Men with LCD Power Disp",
+          "category": "Beauty & Personal Care"
+        },
+        {
+          "title": "Mini Electric Shaver, Portable Men Electric Shaver USB Rechargeable Men Grooming Razor, Po",
+          "category": "Beauty & Personal Care"
+        }
+      ],
+      "en_top3": [
+        {
+          "title": "Profon Gardening Gloves Mini Chainsaw, Claw Gardening Gloves for Planting, Cordless Mini C",
+          "category": "Tools & Home Improvement"
+        },
+        {
+          "title": "Greenworks 24V Brushless 1\" Compact Reciprocating Saw (3,000 SPM), 2.0Ah Battery and Compa",
+          "category": "Tools & Home Improvement"
+        },
+        {
+          "title": "Ryobi R10730K2 Professional 5-1/2\" Cordless Circular Saw Combo Kit",
+          "category": "Tools & Home Improvement"
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "th": "ที่ชาร์จในรถยนต์แบบ 2 ช่อง",
+      "en": "dual port car charger",
+      "overlap_at_5": 0.6,
+      "overlap_at_k": 0.6,
+      "en_top1_in_th_topk": true,
+      "th_top1_in_en_topk": true,
+      "th_mean_score_at_5": 0.5682182182201471,
+      "en_mean_score_at_5": 0.6100712777791065,
+      "query_pair_cosine": 0.7564726636797203,
+      "th_top3": [
+        {
+          "title": "Super Fast iPhone Charger,2 in 1[Apple MFi Certified]2Pack 20W AC USB C Dual Port Fast Cha",
+          "category": "Cell Phones & Accessories"
+        },
+        {
+          "title": "Level 2 EV Charger, 240V 32A, 25ft Cable, NEMA 14-50, LED Digital Display, Compatible with",
+          "category": "All Electronics"
+        },
+        {
+          "title": "SpeedScope Type C Charger,2Pack 25W Super Fast Charger Type c with 10 FT USB C Charger Cab",
+          "category": "All Electronics"
+        }
+      ],
+      "en_top3": [
+        {
+          "title": "Portable Charger with Built-in Cables & AC Wall Plug,Ultra Slim 13800mAh USB-C Power Bank,",
+          "category": "Cell Phones & Accessories"
+        },
+        {
+          "title": "Super Fast iPhone Charger,2 in 1[Apple MFi Certified]2Pack 20W AC USB C Dual Port Fast Cha",
+          "category": "Cell Phones & Accessories"
+        },
+        {
+          "title": "2 Pack Compatible with Nintendo 3ds Charging Cord, Replacement for New 3DS / 3ds XL / 2ds ",
+          "category": "All Electronics"
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "th": "ใบปัดน้ำฝนรถยนต์",
+      "en": "car windshield wiper blades",
+      "overlap_at_5": 0.2,
+      "overlap_at_k": 0.4,
+      "en_top1_in_th_topk": true,
+      "th_top1_in_en_topk": false,
+      "th_mean_score_at_5": 0.5788421105576254,
+      "en_mean_score_at_5": 0.6227528560608029,
+      "query_pair_cosine": 0.6672002788518457,
+      "th_top3": [
+        {
+          "title": "2 Pack Blind Spot Car Mirror,Round Rear View Convex,Frameless HD Glass Mirrors for Cars SU",
+          "category": "Automotive"
+        },
+        {
+          "title": "Tammer Australian Shepherd Car Sun Shade, Team Friends Driving Auto Sunshade for Windshiel",
+          "category": "Automotive"
+        },
+        {
+          "title": "Lightronic Outside-Mount Side Window Visors Deflectors Vent Rain Guards, Dark Smoke Shatte",
+          "category": "Automotive"
+        }
+      ],
+      "en_top3": [
+        {
+          "title": "Umbrella Car Shade, Car Front Windshield Sunshade Umbrella, Foldable Automotive Windshield",
+          "category": "Automotive"
+        },
+        {
+          "title": "Qoosea Windshield Sun Shade Car Sun Shade Windshield with 10 Shafts Car Front Windshield S",
+          "category": "Automotive"
+        },
+        {
+          "title": "Car Windshield Sun Shade UV Rays Sun Visor Auto Protector Accordion Foldable Sunshade Keep",
+          "category": "Automotive"
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "th": "เสื่อโยคะกันลื่น",
+      "en": "non-slip yoga mat",
+      "overlap_at_5": 0.2,
+      "overlap_at_k": 0.1,
+      "en_top1_in_th_topk": true,
+      "th_top1_in_en_topk": true,
+      "th_mean_score_at_5": 0.5626416480635383,
+      "en_mean_score_at_5": 0.6338083465747599,
+      "query_pair_cosine": 0.728496581752156,
+      "th_top3": [
+        {
+          "title": "Bottone 4mm Thickness Yoga Mat Non-slip EVA Foam Yoga Pad,Dampproof Sleeping Mattress Mat,",
+          "category": "Sports & Outdoors"
+        },
+        {
+          "title": "CRZ YOGA Mens Comfy Lounge Pants 30\" - Super-Soft Open Bottom Yoga Casual Pajama Pants Ath",
+          "category": "AMAZON FASHION"
+        },
+        {
+          "title": "FREDS SWIM ACADEMY Kickboard & Swimboard Training Aid Float for Toddlers and Children Aged",
+          "category": "Sports & Outdoors"
+        }
+      ],
+      "en_top3": [
+        {
+          "title": "Bottone 4mm Thickness Yoga Mat Non-slip EVA Foam Yoga Pad,Dampproof Sleeping Mattress Mat,",
+          "category": "Sports & Outdoors"
+        },
+        {
+          "title": "AOYEGO Mandala Flower Bath Mat Set Purple Floral Lotus Star Galaxy Bohemian Constellation ",
+          "category": "Amazon Home"
+        },
+        {
+          "title": "Haull 3 Pcs Boho Kitchen Rugs Set Non Skid Thick Washable Mandala Ethnic Flower Kitchen Ma",
+          "category": "Amazon Home"
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "th": "ดัมเบลปรับน้ำหนักได้",
+      "en": "adjustable dumbbell weights",
+      "overlap_at_5": 1.0,
+      "overlap_at_k": 0.7,
+      "en_top1_in_th_topk": true,
+      "th_top1_in_en_topk": true,
+      "th_mean_score_at_5": 0.6124634038569357,
+      "en_mean_score_at_5": 0.6594106570102751,
+      "query_pair_cosine": 0.783432849153178,
+      "th_top3": [
+        {
+          "title": "Ankle Weights Weight Lifting Adjustable Weights Dumbbell Ankle Strap for Exercise Lower Bo",
+          "category": "Sports & Outdoors"
+        },
+        {
+          "title": "ELEAMY Ankle Straps for Dumbbells Weights and Cable Machines, Adjustable Weights, Foot Dum",
+          "category": "Sports & Outdoors"
+        },
+        {
+          "title": "Aceshin Adjustable Olympic Weight Bench, Bench Press with Preacher Curl Leg Developer Ches",
+          "category": "Sports & Outdoors"
+        }
+      ],
+      "en_top3": [
+        {
+          "title": "Ankle Weights Weight Lifting Adjustable Weights Dumbbell Ankle Strap for Exercise Lower Bo",
+          "category": "Sports & Outdoors"
+        },
+        {
+          "title": "ELEAMY Ankle Straps for Dumbbells Weights and Cable Machines, Adjustable Weights, Foot Dum",
+          "category": "Sports & Outdoors"
+        },
+        {
+          "title": "Aceshin Adjustable Olympic Weight Bench, Bench Press with Preacher Curl Leg Developer Ches",
+          "category": "Sports & Outdoors"
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "th": "อาหารเสริมวิตามินซี",
+      "en": "vitamin C supplement",
+      "overlap_at_5": 0.8,
+      "overlap_at_k": 0.5,
+      "en_top1_in_th_topk": true,
+      "th_top1_in_en_topk": true,
+      "th_mean_score_at_5": 0.5708799008951804,
+      "en_mean_score_at_5": 0.5949195149096956,
+      "query_pair_cosine": 0.7791984371509209,
+      "th_top3": [
+        {
+          "title": "Nutri Vitamin C Chewable Gummies - (2 Pack) Adults and Kids - Daily Supplement for Immune ",
+          "category": "Health & Personal Care"
+        },
+        {
+          "title": "Emergen-C Crystals, On-The-Go Immune Support Supplement with Vitamin C, B Vitamins, Zinc a",
+          "category": "Health & Personal Care"
+        },
+        {
+          "title": "Voost, Immunity Gummies, Vitamin C Supplement with Zinc, Acerola & Echinacea, Supports a H",
+          "category": "Health & Personal Care"
+        }
+      ],
+      "en_top3": [
+        {
+          "title": "Nutri Vitamin C Chewable Gummies - (2 Pack) Adults and Kids - Daily Supplement for Immune ",
+          "category": "Health & Personal Care"
+        },
+        {
+          "title": "Emergen-C Crystals, On-The-Go Immune Support Supplement with Vitamin C, B Vitamins, Zinc a",
+          "category": "Health & Personal Care"
+        },
+        {
+          "title": "Voost, Immunity Gummies, Vitamin C Supplement with Zinc, Acerola & Echinacea, Supports a H",
+          "category": "Health & Personal Care"
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "th": "แปรงสีฟันไฟฟ้า",
+      "en": "electric toothbrush",
+      "overlap_at_5": 1.0,
+      "overlap_at_k": 0.7,
+      "en_top1_in_th_topk": true,
+      "th_top1_in_en_topk": true,
+      "th_mean_score_at_5": 0.603543827695694,
+      "en_mean_score_at_5": 0.646420978540367,
+      "query_pair_cosine": 0.847273996963959,
+      "th_top3": [
+        {
+          "title": "Electric Cleaning Brush, Powerful Spin Scrubber with 2 Rotating Speeds, 3 Replaceable Brus",
+          "category": "Home & Kitchen"
+        },
+        {
+          "title": "Electric Cleaning Brush, Powerful Spin Scrubber with 2 Rotating Speeds, 3 Replaceable Brus",
+          "category": "Home & Kitchen"
+        },
+        {
+          "title": "Electric Spin Scrubber,dreazu Cordless Cleaning Brush with Adjustable Extension Handle 4 R",
+          "category": "Amazon Home"
+        }
+      ],
+      "en_top3": [
+        {
+          "title": "JUPSDDTH Electric Toothbrush Replacement Heads, 4-Pack Toothbrush Replacement Heads Compat",
+          "category": "Health & Household"
+        },
+        {
+          "title": "Hrovsur Electric Toothbrush Holder for Bathroom - 2 PACK Shower Toothbrush Toothpaste Hold",
+          "category": "Amazon Home"
+        },
+        {
+          "title": "Electric Spin Scrubber,dreazu Cordless Cleaning Brush with Adjustable Extension Handle 4 R",
+          "category": "Amazon Home"
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "th": "ปากกาเจลสีน้ำเงิน",
+      "en": "blue gel ink pen",
+      "overlap_at_5": 0.8,
+      "overlap_at_k": 0.5,
+      "en_top1_in_th_topk": true,
+      "th_top1_in_en_topk": true,
+      "th_mean_score_at_5": 0.5484325225299199,
+      "en_mean_score_at_5": 0.6063789408645585,
+      "query_pair_cosine": 0.7099329199489591,
+      "th_top3": [
+        {
+          "title": "Cra-Z-Art Stealth Retractable 4ct Gel Pen Plastic Barrel Black, Blue and Red Ink",
+          "category": "Office Products"
+        },
+        {
+          "title": "BIC Ecolutions Ocean-Bound Plastic Gel Pens, Medium Point (1.0mm), 12-Count Pack, Retracta",
+          "category": "Office Products"
+        },
+        {
+          "title": "erofa 5PCS Gel Pens Quick Dry Ink Pens Fine Point 0.5mm Retractable Press Gel Pens Rolling",
+          "category": "Office Products"
+        }
+      ],
+      "en_top3": [
+        {
+          "title": "BIC Ecolutions Ocean-Bound Plastic Gel Pens, Medium Point (1.0mm), 12-Count Pack, Retracta",
+          "category": "Office Products"
+        },
+        {
+          "title": "Cra-Z-Art Stealth Retractable 4ct Gel Pen Plastic Barrel Black, Blue and Red Ink",
+          "category": "Office Products"
+        },
+        {
+          "title": "Pentel Wow! Retractable Ballpoint Pen, (1.4mm) Bold Line, Assorted Ink Colors, 5 Pack",
+          "category": "Office Products"
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "th": "เครื่องเย็บกระดาษสำหรับสำนักงาน",
+      "en": "office stapler",
+      "overlap_at_5": 0.6,
+      "overlap_at_k": 0.3,
+      "en_top1_in_th_topk": true,
+      "th_top1_in_en_topk": true,
+      "th_mean_score_at_5": 0.5756356073558484,
+      "en_mean_score_at_5": 0.5755042840369973,
+      "query_pair_cosine": 0.6429076474626801,
+      "th_top3": [
+        {
+          "title": "1 Set Mini Manual Stapler with Staples Student Stapler Portable Less Effort Stapler File B",
+          "category": "Office Products"
+        },
+        {
+          "title": "YFEEN Office Supplies Mesh Desktop Organizers with Sticky Notes Pen Holder for office Desk",
+          "category": "Tools & Home Improvement"
+        },
+        {
+          "title": "LETURE 360-Degree Rotating Pen Pencil Holder, Desk Organizer Office Supplies with Drawer,D",
+          "category": "Tools & Home Improvement"
+        }
+      ],
+      "en_top3": [
+        {
+          "title": "1 Set Mini Manual Stapler with Staples Student Stapler Portable Less Effort Stapler File B",
+          "category": "Office Products"
+        },
+        {
+          "title": "YFEEN Office Supplies Mesh Desktop Organizers with Sticky Notes Pen Holder for office Desk",
+          "category": "Tools & Home Improvement"
+        },
+        {
+          "title": "LETURE 360-Degree Rotating Pen Pencil Holder, Desk Organizer Office Supplies with Drawer,D",
+          "category": "Tools & Home Improvement"
+        }
+      ]
+    },
+    {
+      "id": "q21",
+      "th": "เมาส์ไร้สายสำหรับเล่นเกม",
+      "en": "wireless gaming mouse",
+      "overlap_at_5": 0.8,
+      "overlap_at_k": 0.7,
+      "en_top1_in_th_topk": true,
+      "th_top1_in_en_topk": true,
+      "th_mean_score_at_5": 0.6155077681529263,
+      "en_mean_score_at_5": 0.6332734398523427,
+      "query_pair_cosine": 0.7884838821523139,
+      "th_top3": [
+        {
+          "title": "Uioaso 2.4G Wireless Mouse with USB Receiver, Portable Gaming & Office Mice for Desktop, M",
+          "category": "Video Games"
+        },
+        {
+          "title": "Kunsaww Cloud Star Popular Pink Large Game Mouse Pad Long Non Slip Stitched Edges Mouse Pa",
+          "category": "Office Products"
+        },
+        {
+          "title": "Gamer Fanatic Q15 RGB Wireless Gaming Mouse Ergonomic LED Black Multi-Coloured Lightweight",
+          "category": "Video Games"
+        }
+      ],
+      "en_top3": [
+        {
+          "title": "Gamer Fanatic Q15 RGB Wireless Gaming Mouse Ergonomic LED Black Multi-Coloured Lightweight",
+          "category": "Video Games"
+        },
+        {
+          "title": "Uioaso 2.4G Wireless Mouse with USB Receiver, Portable Gaming & Office Mice for Desktop, M",
+          "category": "Video Games"
+        },
+        {
+          "title": "SABLUTE Wireless Mouse, Ergonomic Silent 3DPI Adjustable Levels",
+          "category": "All Electronics"
+        }
+      ]
+    },
+    {
+      "id": "q22",
+      "th": "คีย์บอร์ดเมคานิคอล",
+      "en": "mechanical keyboard",
+      "overlap_at_5": 0.6,
+      "overlap_at_k": 0.5,
+      "en_top1_in_th_topk": true,
+      "th_top1_in_en_topk": true,
+      "th_mean_score_at_5": 0.5002690568908609,
+      "en_mean_score_at_5": 0.534392318176308,
+      "query_pair_cosine": 0.779217679011368,
+      "th_top3": [
+        {
+          "title": "Multi-Function Wall Keypad Control Panel, Wall-Mounted Multi-Function Garage Door Console ",
+          "category": "Tools & Home Improvement"
+        },
+        {
+          "title": "Kailh Hot-swap PCB Socket Hot Plug CPG151101S11 for Mechanical Keyboard DIY PCB Accessorie",
+          "category": "Electronics"
+        },
+        {
+          "title": "Keyboard Cover for Logitech MK270 MK295, Silicone Keyboard Cover for Logitech MK270 MK295 ",
+          "category": "Electronics"
+        }
+      ],
+      "en_top3": [
+        {
+          "title": "Kailh Hot-swap PCB Socket Hot Plug CPG151101S11 for Mechanical Keyboard DIY PCB Accessorie",
+          "category": "Electronics"
+        },
+        {
+          "title": "harpfeas 6PCS Metal Small Oval Guitar Tuning Peg Buttons,Tuning Key Button Heads Tuners Ma",
+          "category": "Musical Instruments"
+        },
+        {
+          "title": "Multi-Function Wall Keypad Control Panel, Wall-Mounted Multi-Function Garage Door Console ",
+          "category": "Tools & Home Improvement"
+        }
+      ]
+    },
+    {
+      "id": "q23",
+      "th": "ปลอกคอสุนัขปรับขนาดได้",
+      "en": "adjustable dog collar",
+      "overlap_at_5": 0.6,
+      "overlap_at_k": 0.7,
+      "en_top1_in_th_topk": true,
+      "th_top1_in_en_topk": true,
+      "th_mean_score_at_5": 0.657986843601366,
+      "en_mean_score_at_5": 0.7004026778813957,
+      "query_pair_cosine": 0.7869780424657129,
+      "th_top3": [
+        {
+          "title": "Dog Training Collar for Large Dog, Waterproof Dog Shock Collar, Rechargeable Electronic Do",
+          "category": "Pet Supplies"
+        },
+        {
+          "title": "Dog Collar for Large Dogs，Dog Collars, Tactical Dog Collar,Dog Collars for Large Dogs，Larg",
+          "category": "Pet Supplies"
+        },
+        {
+          "title": "Dog Harness for Small Dogs, Adjustable Step in Dog Harness No Pull Dog Puppy Harness for S",
+          "category": "Pet Supplies"
+        }
+      ],
+      "en_top3": [
+        {
+          "title": "Dog Training Collar for Large Dog, Waterproof Dog Shock Collar, Rechargeable Electronic Do",
+          "category": "Pet Supplies"
+        },
+        {
+          "title": "Dog Collar for Large Dogs，Dog Collars, Tactical Dog Collar,Dog Collars for Large Dogs，Larg",
+          "category": "Pet Supplies"
+        },
+        {
+          "title": "【3 Colors 3 Sizes】 K.9 Service Dog Collar Service Dog Leash Tactical Collar Military Colla",
+          "category": "Pet Supplies"
+        }
+      ]
+    },
+    {
+      "id": "q24",
+      "th": "ทรายแมวไร้ฝุ่น",
+      "en": "dust free cat litter",
+      "overlap_at_5": 0.2,
+      "overlap_at_k": 0.5,
+      "en_top1_in_th_topk": true,
+      "th_top1_in_en_topk": true,
+      "th_mean_score_at_5": 0.552705364020646,
+      "en_mean_score_at_5": 0.5962593846771462,
+      "query_pair_cosine": 0.7331388334413753,
+      "th_top3": [
+        {
+          "title": "STOYKİS Dog and Cat Gloves & Wipes for Cleaning - Hypoallergenic Pet Gloves for Dogs, Cats",
+          "category": "Pet Supplies"
+        },
+        {
+          "title": "PET Standard Reusable Tray Compatible with PetSafe ScoopFree Self-Cleaning Cat Litterbox",
+          "category": "Pet Supplies"
+        },
+        {
+          "title": "2PC-2023 New Pet Clean Teeth Cleaning Spray for Dogs & Cats, Pet Mouth Spray, Pet Clean No",
+          "category": "Pet Supplies"
+        }
+      ],
+      "en_top3": [
+        {
+          "title": "PET Standard Reusable Tray Compatible with PetSafe ScoopFree Self-Cleaning Cat Litterbox",
+          "category": "Pet Supplies"
+        },
+        {
+          "title": "Self-Cleaning Cat Litterbox - Never Scoop Litter Again - AUT Cat Litter Box with APP Contr",
+          "category": "Unknown"
+        },
+        {
+          "title": "Tangkula Cat Litter Box Enclosure, Hidden Cat Washroom with Louvered Door, Metal Frame, Ad",
+          "category": "Pet Supplies"
+        }
+      ]
+    },
+    {
+      "id": "q25",
+      "th": "ขาตั้งกล้องสามขา",
+      "en": "camera tripod stand",
+      "overlap_at_5": 0.0,
+      "overlap_at_k": 0.1,
+      "en_top1_in_th_topk": false,
+      "th_top1_in_en_topk": false,
+      "th_mean_score_at_5": 0.5170721123538905,
+      "en_mean_score_at_5": 0.5144401150331473,
+      "query_pair_cosine": 0.718924415602245,
+      "th_top3": [
+        {
+          "title": "Mid Century Boho Mountain Moon Light Switch Cover 3 Gang Wall Plate Decorative Triple Togg",
+          "category": "Tools & Home Improvement"
+        },
+        {
+          "title": "PellKing Head Mount Strap Chest Mount Harness Chesty Kit Compatible with Insta360 one X3,X",
+          "category": "Electronics"
+        },
+        {
+          "title": "Wopuzr Vinyl Siding Angle Adjustment Mount Compatible with Video Doorbell/Video Doorbell 2",
+          "category": "Camera & Photo"
+        }
+      ],
+      "en_top3": [
+        {
+          "title": "Riedler 1080P Webcam with Tripod, Microphone and Privacy Cover, High Resolution 30FPS 1920",
+          "category": "All Electronics"
+        },
+        {
+          "title": "bodbop Cell Phone Stand for Desk Mobile Phone Holder Desktop Cell Phone Bracket Desk Folda",
+          "category": "Cell Phones & Accessories"
+        },
+        {
+          "title": "2-Set Class of 2023 Black Gold 3-Tiered Graduation Round Cardboard Cupcake Stands 24 Cake ",
+          "category": "Amazon Home"
+        }
+      ]
+    }
+  ]
+}

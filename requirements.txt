@@ -1,0 +1,32 @@
+# Phase 0-1 เท่านั้น — จงใจให้สั้น
+# dependency ของ Phase หลัง ๆ (Langfuse, FastAPI, framework ของ agent) ค่อยเพิ่มเมื่อถึงด่านนั้น
+# และเมื่อ ADR ที่เกี่ยวข้องตัดสินแล้ว
+#
+# เหตุผลที่ไม่ pin เวอร์ชันตอนนี้: ยังไม่ได้ติดตั้งจริง จะ pin ตอน freeze หลังติดตั้งสำเร็จ
+# ⚠ เครื่องนี้มี Windows Application Control ที่บล็อก DLL ของ sklearn/scipy.stats
+#    ติดตั้งแล้วให้ทดสอบ import ทันที อย่ารอจนเขียนโค้ดเสร็จ
+
+# ข้อมูล
+pandas
+pyarrow
+pandera            # quality gate ทุกชั้นของ Medallion
+huggingface_hub    # ดึงไฟล์ .arrow ตรงจาก HF hub
+#
+# ⚠ จงใจ **ไม่ใช้** `datasets` ของ HuggingFace: มันเรียก pyarrow.dataset ซึ่งต้องโหลด DLL
+#   `_dataset` ที่ Windows Application Control บนเครื่องนี้บล็อกอยู่ (ยืนยันแล้ว 2026-09-28)
+#   เลี่ยงโดยโหลดไฟล์ .arrow ตรง ๆ แล้วอ่านด้วย pyarrow.ipc ซึ่งใช้งานได้ปกติ
+#   ดู src/mark5/data/ingest.py
+
+# vector store
+chromadb
+
+# เรียก Ollama (ไม่พึ่ง sentence-transformers เพราะ sklearn ถูกบล็อกบนเครื่องนี้)
+httpx
+
+# ทั่วไป
+python-dotenv
+pyyaml
+rich
+
+# ทดสอบ
+pytest
